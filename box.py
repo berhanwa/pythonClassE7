@@ -7,3 +7,6 @@ print ('|          |')
 print ('|          |')
 print ('|          |')
 print ('+__________+')
+
+
+for 
