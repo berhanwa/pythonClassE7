@@ -7,7 +7,13 @@
 #     print ('+_______+')
 # draw_one_box()
 
+
+# print(foo)
+bar = 13
 foo = 23 - 45 // 10
 foo += 6
-print(foo)
+bar = foo % bar
+print (foo * 2)
+print (foo + bar)
+print (foo, bar)
 
