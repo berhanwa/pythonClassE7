@@ -8,5 +8,5 @@ def draw_one_box():
 draw_one_box()
 
 foo = 23 - 45 // 10
-print('foo')
+print(foo)
 
