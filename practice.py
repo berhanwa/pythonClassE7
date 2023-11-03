@@ -5,5 +5,5 @@ def draw_one_box():
     print ('|       |')
     print ('|       |')
     print ('+_______+')
-
+draw_one_box()
 
