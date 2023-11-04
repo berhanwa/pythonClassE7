@@ -49,8 +49,8 @@
 # print ('\n')
 
 
-for j in range (5) :
-    print (3*j-2)
+# for j in range (5) :
+#     print (3*j-2)
 # your code goes right here and nowhere else!
 # so that this loop will print the following numbers, one per line:
 # -2 0
@@ -59,4 +59,5 @@ for j in range (5) :
 # 7  3
 # 10 4
 
-
+for j in range(50, -10, -8):
+    print(j)
