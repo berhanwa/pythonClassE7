@@ -9,12 +9,20 @@
 
 
 # print(foo)
-bar = 13
-foo = 23 - 45 // 10
-foo += 6
-bar = foo % bar
-print (foo * 2)
-print (foo + bar)
-print (foo, bar)
+# bar = 13
+# foo = 23 - 45 // 10
+# foo += 6
+# bar = foo % bar
+# print (foo * 2)
+# print (foo + bar)
+# print (foo, bar)
 
 # stay active////
+
+def main():
+    print ("She said, \"", end="")
+    print ("Never put off till tomorrow... ", end="")
+    print ("\nWhat you can do")
+    print ("The day", end="")
+    print ()
+    print ("After tomorrow!\"")
