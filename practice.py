@@ -49,4 +49,4 @@
 # print ('\n')
 
 for j in range(5):
-    print (j+5)
+    print (j-2)
