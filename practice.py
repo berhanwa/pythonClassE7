@@ -50,7 +50,7 @@
 
 
 for j in range (5) :
-    print (j)
+    print (3j-2)
 # your code goes right here and nowhere else!
 # so that this loop will print the following numbers, one per line:
 # -2 0
