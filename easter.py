@@ -1,9 +1,9 @@
 
 print ('Enter a year:')
-y = float(input())
+y = int(input())
 
 
-a = y / 19
+a = int(y % 19)
 b = y // 100
 c = y % 100
 d = b // 4
