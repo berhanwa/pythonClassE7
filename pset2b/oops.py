@@ -1,5 +1,6 @@
 def main():
-    studs = input("How many students are enrolled?")
-    tf= (studs)//15
-    Print ('We need,' {studs//15} 'teaching assistants')
+    print ('How many students are enrolled?')
+    studs = int(input())
+    tf = (studs)//15
+    print ('We need,' f'{studs//15} teaching assistants')
 main()
