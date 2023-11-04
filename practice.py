@@ -28,10 +28,21 @@
 #     print ("After tomorrow!\"")
 # main()
 
-first = 18
-second = -9
-first += second
-second = first - second
-first = first - second
-print (first)
-print (second)
+def first():
+    print("Inside first function!")
+
+def second():
+    first()
+    print("Inside second function!")
+
+def third():
+    print("Inside third function!")
+    first()
+    second()
+
+def main():
+    first()
+    third()
+    second()
+    third()
+main()
