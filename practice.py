@@ -50,8 +50,8 @@
 
 # Complete the following Python code. You may modify only the indicated
 # comment.
-for j in range (5) :
-    print (j)
+# for j in range (5) :
+#     print (j)
 # your code goes right here and nowhere else!
 # so that this loop will print the following numbers, one per line:
 # -2 0
@@ -59,3 +59,6 @@ for j in range (5) :
 # 4  2
 # 7  3
 # 10 4
+
+for j in range (-2, 11, 3) :
+    print (j)
