@@ -8,4 +8,4 @@ f_to_k()
 
 print ('Input a Fahrenheit temperature to be converted:')
 fahrenheit = int(input())
-print (fahrenheit + 'degrees Farenheit equals' + kelvin + "degrees Kelvin")
+print (fahrenheit + 'degrees Farenheit equals' + def f_to_k() + "degrees Kelvin")
