@@ -8,8 +8,8 @@
 print ('Input a Fahrenheit temperature to be converted:')
 fahrenheit = int(input())
 
-# kelvin= 5/9*(fahrenheit-32)+277.16
-kelvin= (fahrenheit-32)*5/9+277.16
+# kelvin= 5/9*(fahrenheit-32)+273.16
+kelvin= (fahrenheit-32)*5/9+273.16
 
 # print (fahrenheit + 'degrees Farenheit equals' + def f_to_k() + "degrees Kelvin")
 
