@@ -26,3 +26,4 @@ def main():
     print ("The day", end="")
     print ()
     print ("After tomorrow!\"")
+main()
