@@ -1,6 +1,6 @@
 
 
-def f_to_k():
+def f_to_k(fahrenheit):
     return (5/9(fahrenheit-32)+277.16)
 f_to_k()
 
@@ -8,4 +8,6 @@ f_to_k()
 
 print ('Input a Fahrenheit temperature to be converted:')
 fahrenheit = int(input())
-print (fahrenheit + 'degrees Farenheit equals' + def f_to_k() + "degrees Kelvin")
+# print (fahrenheit + 'degrees Farenheit equals' + def f_to_k() + "degrees Kelvin")
+
+print(str(fahrenheit) + ' degrees Fahrenheit equals ' + float(f_to_k(fahrenheit)) + ' degrees Kelvin')
