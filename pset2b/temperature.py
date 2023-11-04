@@ -1,5 +1,5 @@
 print ('Input a Fahrenheit temperature to be converted:')
-fahrenheit = input()
+fahrenheit = int(input())
 print (fahrenheit + 'degrees Farenheit equals' + kelvin + "degrees Kelvin")
 
 def f_to_k():
