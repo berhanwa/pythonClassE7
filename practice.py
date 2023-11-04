@@ -28,23 +28,23 @@
 #     print ("After tomorrow!\"")
 # main()
 
-def first():
-    print("Inside first function!")
+# def first():
+#     print("Inside first function!")
 
-def second():
-    first()
-    print("Inside second function!")
+# def second():
+#     first()
+#     print("Inside second function!")
 
-def third():
-    first()
-    print("Inside third function!")
-    second()
+# def third():
+#     first()
+#     print("Inside third function!")
+#     second()
 
-def main():
-    first()
-    third()
-    second()
-    third()
-main()
-print ('\n')
+# def main():
+#     first()
+#     third()
+#     second()
+#     third()
+# main()
+# print ('\n')
 
