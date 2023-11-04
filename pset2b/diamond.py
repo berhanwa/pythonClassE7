@@ -1,1 +1,6 @@
-print('D')
+print('    D    ')
+print('   I I   ')
+print('  A   A  ')
+print('M       M')
+print('  O   O  ')
+print('   N  N  ')
