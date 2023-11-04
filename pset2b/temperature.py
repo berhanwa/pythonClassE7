@@ -1,19 +1,9 @@
-
-
-# def f_to_k(fahrenheit):
-#     fahrenheit = int(input())
-#     return (5/9(fahrenheit-32)+277.16)
-# f_to_k()
-
+# Made the program start by asking users to enter the f value, assign an input to the response
 print ('Input a Fahrenheit temperature to be converted:')
 fahrenheit = int(input())
 
-# kelvin= 5/9*(fahrenheit-32)+273.16
+# Then writing in the calculation portion and assigning it the value kelvin, to then print the conversion down below.
 kelvin= (fahrenheit-32)*5/9+273.16
 
-# print (fahrenheit + 'degrees Farenheit equals' + def f_to_k() + "degrees Kelvin")
-
-# print(int(fahrenheit) + ' degrees Fahrenheit equals ' + kelvin + ' degrees Kelvin')
-
+# Took me a while, but I realized I needed to place the values within {}s and that I didn't need to explicitly concatenate them with the strings by a + symbol.
 print(f'{fahrenheit}  degrees Fahrenheit equals {kelvin} degrees Kelvin')
-

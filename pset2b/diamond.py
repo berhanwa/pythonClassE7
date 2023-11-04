@@ -10,7 +10,6 @@
 
 
 # Then copied that version and replaced the '.'s for spaces
-
 print('   D   ')
 print('  I I  ')
 print(' A   A ')
