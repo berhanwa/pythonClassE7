@@ -17,3 +17,4 @@ print (foo * 2)
 print (foo + bar)
 print (foo, bar)
 
+# stay active
