@@ -17,7 +17,7 @@ r = (2 * e + 2 * j - k - h + m + 32) % 7
 n = (h - m + r + 90) // 25
 p = (h - m + r + n + 19) % 32
 
-
+print (p)
 print ('Easter Sunday falls on' " " f'{n}/{p}/{y}')
 
 # print ('Easter Sunday falls on day' " " f'{p} of month')
