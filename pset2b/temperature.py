@@ -1,8 +1,9 @@
 
 
 def f_to_k(fahrenheit):
+    fahrenheit = int(input())
     return (5/9(fahrenheit-32)+277.16)
-f_to_k()
+# f_to_k()
 
 # k= 5/9(fahrenheit-32)+277.16
 
