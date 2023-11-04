@@ -2,7 +2,9 @@
 
 print ('I will compute the sum of even integers from 2 through:')
 n = int(input())
+sum_even = 0
 
+for i in range(2, n+1, 2):
+    sum_even += n
 
-
-# print ('The sum is' " " f'{studs//15}')
+print ('The sum is' " " f'{sum_even}')
