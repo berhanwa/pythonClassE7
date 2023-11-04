@@ -15,5 +15,5 @@ kelvin= 5/9*(fahrenheit-32)+277.16
 
 # print(int(fahrenheit) + ' degrees Fahrenheit equals ' + kelvin + ' degrees Kelvin')
 
-print(int(fahrenheit) + ' degrees Fahrenheit equals')
+print(fahrenheit + ' degrees Fahrenheit equals')
 print(kelvin + ' degrees Kelvin')
