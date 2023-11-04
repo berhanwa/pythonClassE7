@@ -1,9 +1,9 @@
-
+# Started by asking the user to input a year and assign that to the variable y, making sure to specify it as an int data type
 print ('Enter a year:')
 y = int(input())
 
-
-a = int(y % 19)
+# Then going down the numbered list by assigning the appropriate equations to the corresponding variables
+a = y % 19
 b = y // 100
 c = y % 100
 d = b // 4
@@ -17,20 +17,20 @@ r = (2 * e + 2 * j - k - h + m + 32) % 7
 n = (h - m + r + 90) // 25
 p = (h - m + r + n + 19) % 32
 
-print (a)
-print (b)
-print (c)
-print (d)
-print (e)
-print (g)
-print (h)
-print (j)
-print (k)
-print (m)
-print (r)
-print (n)
-print (p)
+# I printed out each variable, because I kept getting the wrong number for 'p' at the end. Turns out I had used the wrong operator on a, so seeing everything laid out like this helped me problem-solve
+# print (a)
+# print (b)
+# print (c)
+# print (d)
+# print (e)
+# print (g)
+# print (h)
+# print (j)
+# print (k)
+# print (m)
+# print (r)
+# print (n)
+# print (p)
 
+# Finally, printed what day Easter falls on by leveraging the n, p and y values
 print ('Easter Sunday falls on' " " f'{n}/{p}/{y}')
-
-# print ('Easter Sunday falls on day' " " f'{p} of month')
