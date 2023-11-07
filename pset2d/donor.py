@@ -19,7 +19,7 @@ n = float(input('Enter the amount of a contribution:'))
 
 
 def donor():
-    if n < -1:
+    if n < 0:
         print("Error, please donate a REAL amount (i.e. no coins)!")
     elif 0 <= n < 15:
         print("Cheapskate!")
