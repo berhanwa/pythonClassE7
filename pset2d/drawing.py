@@ -1,3 +1,4 @@
+First, I recreated the shape for both top and bottom definitions with '.'s in place of blank spaces to visualize them ()
 def top ():
     print ("  _______  ")
     print (" /       \\ ")
@@ -11,7 +12,7 @@ def bottom ():
 # bottom ()
 
 def mid ():
-    print ("-\\"-\'-\"-\'-\"-")
+    print ("-\"-\'-\"-\'-\"-")
 
 def main ():
     top ()
