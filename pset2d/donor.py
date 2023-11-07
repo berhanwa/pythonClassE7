@@ -7,4 +7,6 @@ def donor():
     if n < 15:
         return "Cheapskate!"
     elif 15 <= n < 200
-        return "You are a "
+        return "Friends"
+    elif 200 <= n < 1000
+        return "Supporters"
