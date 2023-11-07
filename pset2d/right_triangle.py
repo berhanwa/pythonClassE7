@@ -1,5 +1,5 @@
 positive_sp = int(input('How tall do you want the pattern to be:'))
-negative_sp = positive_sp
+# negative_sp = positive_sp
 
 # n =
 
