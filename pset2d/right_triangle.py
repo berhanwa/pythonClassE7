@@ -6,4 +6,4 @@ height = int(input('How tall do you want the pattern to be:'))
 for i in range (1, height+1):
     print ('*' * height)
 
-width = height -
+# width = height -
