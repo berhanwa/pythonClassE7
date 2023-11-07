@@ -1,14 +1,23 @@
 def top ():
-    print (".._______..")
-    print ("./.......\\.")
-    print ("/.........\\")
-top ()
+    print ("  _______  ")
+    print (" /       \\ ")
+    print ("/         \\")
+# top ()
 
 def bottom ():
-    print ("\\........./")
+    print ("\\         /")
     print (" \\       / ")
     print ("  _______  ")
-bottom ()
+# bottom ()
+
+def mid ():
+    print ("-"-'-"-'-"-")
+    
+def main ():
+    top ()
+    mid ()
+    bottom ()
+main ()
 
 
 
