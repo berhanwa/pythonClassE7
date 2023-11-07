@@ -1,1 +1,2 @@
-n = float(input('Enter the amount of a contribution:'))
+n = int(input('How tall do you want the pattern to be:'))
+
