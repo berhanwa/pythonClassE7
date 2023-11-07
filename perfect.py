@@ -18,7 +18,7 @@ def is_perfect_number (n):
 
 for i in range (1, num + 1):
     if is_perfect_number(i):
-        is_perfect_number.append(i)
+        perfect_numbers.append(i)
 
 for perfect in perfect_numbers:
     print(perfect)
