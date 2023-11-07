@@ -5,10 +5,7 @@ a = ' na ' * 15
 b = 'BATMAN!'
 
 # Assigned a variable based on the pseudocode that helped me break down each part of the program, then fed it into the for loop below
-complete = 'Na ' + a + ' ... ' + b
+complete = ['Na ' + a + ' ... ' + b]
 
-# for i in range (1):
-#     print (complete)
-
-for
-
+for x in complete:
+    print (x)
