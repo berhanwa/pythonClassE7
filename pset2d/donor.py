@@ -11,7 +11,7 @@ def donor():
         print("Supporters")
     elif 1000 <= n < 10000:
         print("Patrons")
-    else:
+    elif n <= 10000:
          print("Benefactors")
     else:
          print("Benefactors")
