@@ -1,7 +1,7 @@
-# print ('Enter the amount of a contribution:')
+# Started by asking users to enter the amount they wish to donate
 n = float(input('Enter the amount of a contribution:'))
 
-
+# Defined a function that lists out all the donor ranges, and if they enter an amount less than 0, an 'error' message will be printed out.
 def donor():
     if n < 0:
         print("Error, please donate a REAL amount!")
