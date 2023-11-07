@@ -19,13 +19,13 @@ donor()
 
 # def donor():
 #     if n < 15:
-#         return "Cheapskate!"
+#         print("Cheapskate!")
 #     elif 15 <= n < 200:
-#         return "Friends"
+#         print("Friends")
 #     elif 200 <= n < 1000:
-#         return "Supporters"
+#         print("Supporters")
 #     elif 1000 <= n < 10000:
-#         return "Patrons"
+#         print("Patrons")
 #     else:
-#         return "Benefactors"
+#          print("Benefactors")
 # donor()
