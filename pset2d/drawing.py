@@ -11,8 +11,8 @@ def bottom ():
 # bottom ()
 
 def mid ():
-    print ("-"-'-"-'-"-")
-    
+    print ("-\\"-\'-\"-\'-\"-")
+
 def main ():
     top ()
     mid ()
