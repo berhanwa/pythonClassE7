@@ -1,4 +1,5 @@
-# Use nested loops
+# Use nested loops. Specified i to be the rows, whcih increment by 100
+# And specified j to be the columns, 
 
 for i in range (1, 10):
     line = ""
