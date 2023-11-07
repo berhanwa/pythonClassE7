@@ -3,5 +3,5 @@ negative_sp = positive_sp
 
 n =
 
-for i in range ():
+for i in range (positive_sp):
     print ()
