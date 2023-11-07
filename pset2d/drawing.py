@@ -1,4 +1,4 @@
-First, I recreated the shape for both top and bottom definitions with '.'s in place of blank spaces to visualize them ()
+# First, I recreated the shape for both top and bottom definitions with '.'s in place of blank spaces to visualize them (down below)
 def top ():
     print ("  _______  ")
     print (" /       \\ ")
