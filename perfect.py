@@ -13,4 +13,5 @@ def get_divisors (n):
     return divisors
 
 def is_perfect_number (n):
-    
+    divisors = get_divisors(n)
+    return sum(divisors) == n
