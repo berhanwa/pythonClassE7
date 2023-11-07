@@ -7,4 +7,4 @@ for i in range (1, 10):
     for j in range (0, i):
         line += " " + str(i * 100 + (2 * j * (i - 1))) # Add then assign (+=) the string concatenation of rows by 100 with the even numbers of j multiplied with
     print (line)
-# Increases by even numbers
+# The difference in column values increases by even numbers that grow as the column number increases.
