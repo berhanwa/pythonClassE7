@@ -4,4 +4,4 @@ positive_sp = int(input('How tall do you want the pattern to be:'))
 # n =
 
 for i in range (positive_sp):
-    print ()
+    print ('*' * positive_sp)
