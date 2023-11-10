@@ -69,17 +69,19 @@
 # weight = int(input('State your weight:'))
 
 def main ():
-    is_a_smoker() = input('Do you smoke? ')
-    is_male() = input('Are you male? ')
-    is_good_looking() = input('Do you have good looks? ')
-    is_able_to_relocate() = input('Are you able to move? ')
-    age () = input('How old are you? ')
-    height () = input('How tall are you? ')
-    weight () = input('How much do you weigh? ')
+    is_a_smoker = input('Do you smoke? ')
+    is_male = input('Are you male? ')
+    is_good_looking = input('Do you have good looks? ')
+    is_able_to_relocate = input('Are you able to move? ')
+    age = input('How old are you? ')
+    height = input('How tall are you, in inches? ')
+    weight = input('How much do you weigh? ')
 
     young = (21 <= age <= 25)
+    tall = (height < 72)
+    slim = (weight < 160)
 
-if ():
+if (young and tall and slim):
     print ('Marry me!')
 else:
     print ('Get Lost!')
