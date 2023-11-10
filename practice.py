@@ -69,7 +69,8 @@ height = int(input('State your hight:'))
 weight = int(input('State your weight:'))
 
 def main ():
-    is_a_smoker() = int(input('State your hight:'))
+    is_a_smoker() = input('Do you smoke? ')
+    is_male() = input('Are you male? ')
 
 
 
