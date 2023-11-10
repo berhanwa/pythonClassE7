@@ -62,3 +62,14 @@
 # for j in range(50, -10, -8):
 #     print(j)
 
+age = int(input('State your age:'))
+
+height = int(input('State your hight:'))
+
+weight = int(input('State your weight:'))
+
+
+if ():
+    print ('Marry me!')
+else:
+    print ('Get Lost!')
