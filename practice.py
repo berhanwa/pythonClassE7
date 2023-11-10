@@ -62,15 +62,20 @@
 # for j in range(50, -10, -8):
 #     print(j)
 
-age = int(input('State your age:'))
+# age = int(input('State your age:'))
 
-height = int(input('State your hight:'))
+# height = int(input('State your hight:'))
 
-weight = int(input('State your weight:'))
+# weight = int(input('State your weight:'))
 
 def main ():
     is_a_smoker() = input('Do you smoke? ')
     is_male() = input('Are you male? ')
+    is_good_looking() = input('Do you have good looks? ')
+    is_able_to_relocate() = input('Are you able to move? ')
+    age () = input('How old are you? ')
+    height () = input('How tall are you? ')
+    weight () = input('How much do you weigh? ')
 
 
 
