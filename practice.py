@@ -59,5 +59,6 @@
 # 7  3
 # 10 4
 
-for j in range(50, -10, -8):
-    print(j)
+# for j in range(50, -10, -8):
+#     print(j)
+
