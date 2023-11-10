@@ -68,6 +68,10 @@ height = int(input('State your hight:'))
 
 weight = int(input('State your weight:'))
 
+def main ():
+    is_a_smoker() =
+
+
 
 if ():
     print ('Marry me!')
