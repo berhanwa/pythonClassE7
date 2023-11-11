@@ -35,14 +35,14 @@ def main():
     verse (9, "on my spine")
     verse (10, "once again")
 
-    def verse (n, str):
-        print ("This old man, he played", n + str)
-        print ("He played knick-knack", n + str)
-        chorus()
+def verse (n, str):
+    print ("This old man, he played", n)
+    print ("He played knick-knack", n)
+    chorus()
 
-    def chorus ():
-        print ("Knick-knack paddy whack")
-        print ("Give the dog a bone")
-        print ("This old man came rolling home.")
+def chorus ():
+    print ("Knick-knack paddy whack")
+    print ("Give the dog a bone")
+    print ("This old man came rolling home.")
 
 main ()
