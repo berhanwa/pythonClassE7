@@ -91,21 +91,27 @@
 
 
 
-def main():
-   concentration = "fred"
-   fred = "computer"
-   computer = "department"
-   department = "student"
-   student = "concentration"
+# def main():
+#    concentration = "fred"
+#    fred = "computer"
+#    computer = "department"
+#    department = "student"
+#    student = "concentration"
 
-   sentence(concentration, fred, department)
-   sentence(student, computer, fred)
-   sentence("Fred", "honor", computer)
-   sentence("foo", "bar", "baz")
-   sentence(fred, computer, student)
+#    sentence(concentration, fred, department)
+#    sentence(student, computer, fred)
+#    sentence("Fred", "honor", computer)
+#    sentence("foo", "bar", "baz")
+#    sentence(fred, computer, student)
 
-def sentence (concentration, fred, foo):
-   print("Many a " + foo + " in the "
-                  + fred + " of " + concentration)
+# def sentence (concentration, fred, foo):
+#    print("Many a " + foo + " in the "
+#                   + fred + " of " + concentration)
 
-main()
+# main()
+
+
+def foo(x):
+    return 1 - 2*x
+
+    foo(3) + abs(foo(10))
