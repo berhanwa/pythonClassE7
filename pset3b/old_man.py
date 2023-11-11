@@ -37,7 +37,7 @@ def main():
 
 def verse (n, str):
     print ("This old man, he played", n)
-    print ("He played knick-knack", n, str)
+    print ("He played knick-knack", str)
     chorus()
 
 def chorus ():
