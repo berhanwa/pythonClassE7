@@ -6,7 +6,7 @@ def print_range (x,y):
         print (x)
     elif x < y:
         for i in range(x, y + 1):
-        print (i)
+            print (i)
     else:
         print (i-1)
 
