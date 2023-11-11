@@ -9,6 +9,8 @@ def eligible_for_senate (age, length_of_citizenship):
 
 def main():
     if eligible_for_house() and eligible_for_senate ():
+        print ("The candidate is eligible for election to the House of Representatives AND to the Senate.")
+    elif eligible_for_house() or eligible_for_senate ():
         print ("The candidate is eligible for election to the House of Representatives but is NOT eligible for election to the Senate.")
     else:
         print ("The candidate is NOT eligible for election to either the House of Representatives or the Senate.")
