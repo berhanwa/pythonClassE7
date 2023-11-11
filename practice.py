@@ -126,7 +126,7 @@ def main():
 def mystery(x, y):
     s = 0
     while x > 0 and 2*y >= x:
-        print(s, end=" ")
+        print(s)
         y = y - x
         x -= 1
         s = s + 2 * x
