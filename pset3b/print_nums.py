@@ -8,7 +8,7 @@ def print_range (x,y):
         for i in range(x, y + 1),
         print (i)
     else:
-        print ()
+        print (i-1)
 
 print_range()
 
