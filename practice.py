@@ -68,20 +68,44 @@
 
 # weight = int(input('State your weight:'))
 
-def main ():
-    is_a_smoker = input('Do you smoke? ')
-    is_male = input('Are you male? ')
-    is_good_looking = input('Do you have good looks? ')
-    is_able_to_relocate = input('Are you able to move? ')
-    age = input('How old are you? ')
-    height = input('How tall are you, in inches? ')
-    weight = input('How much do you weigh? ')
 
-    young = (21 <= age <= 25)
-    tall = (height < 72)
-    slim = (weight < 160)
 
-if (young and tall and slim):
-    print ('Marry me!')
-else:
-    print ('Get Lost!')
+# def main ():
+#     is_a_smoker = input('Do you smoke? ')
+#     is_male = input('Are you male? ')
+#     is_good_looking = input('Do you have good looks? ')
+#     is_able_to_relocate = input('Are you able to move? ')
+#     age = input('How old are you? ')
+#     height = input('How tall are you, in inches? ')
+#     weight = input('How much do you weigh? ')
+
+#     young = (21 <= age <= 25)
+#     tall = (height < 72)
+#     slim = (weight < 160)
+
+# if (young and tall and slim):
+#     print ('Marry me!')
+# else:
+#     print ('Get Lost!')
+
+
+
+
+def main():
+   concentration = "fred"
+   fred = "computer"
+   computer = "department"
+   department = "student"
+   student = "concentration"
+
+   sentence(concentration, fred, department)
+   sentence(student, computer, fred)
+   sentence("Fred", "honor", computer)
+   sentence("foo", "bar", "baz")
+   sentence(fred, computer, student)
+
+def sentence (concentration, fred, foo):
+   print("Many a " + foo + " in the "
+                  + fred + " of " + concentration)
+
+main()
