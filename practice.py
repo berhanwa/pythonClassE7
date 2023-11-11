@@ -114,4 +114,4 @@
 def foo(x):
     return 1 - 2*x
 
-print (foo(7))
+print ( foo(foo(foo(foo(2)))) )
