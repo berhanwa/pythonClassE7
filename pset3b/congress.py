@@ -1,13 +1,13 @@
 
-
+# Defined the functions for each house and senate requirements
 def eligible_for_house (age, length_of_citizenship):
     return (age >= 25)  and (length_of_citizenship >= 7)
 
 def eligible_for_senate (age, length_of_citizenship):
     return (age >= 30)  and (length_of_citizenship >= 9)
 
+# Then in the main function, asked the user to input age and citizenship years and then print the corresponding eligibilities
 def main():
-
     age = int(input('How old are you? '))
     length_of_citizenship = int(input('How many years have you been a US citizen? '))
 
@@ -21,7 +21,3 @@ def main():
     else:
         print ("The candidate is NOT eligible for election to either the House of Representatives or the Senate.")
 main ()
-
-# def eligible_for_house (age, length_of_citizenship):
-#     if age >= 25 and length_of_citizenship >= 7:
-#         return True
