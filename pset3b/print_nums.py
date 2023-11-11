@@ -5,9 +5,12 @@ def print_range (x,y):
     if x == y:
         print (x)
     elif x < y:
-        print (x += 1)
+        for i in range(x, y + 1),
+        print (i)
+    else:
+        print ()
 
 print_range()
 
-    while x < y:
-        print (x += 1)
+    # while x < y:
+    #     print (x += 1)
