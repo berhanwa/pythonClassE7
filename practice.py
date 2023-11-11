@@ -132,4 +132,4 @@ def main():
         s = s + 2 * x
         print(s)
 
-main()
+    main()
