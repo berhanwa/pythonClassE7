@@ -123,13 +123,13 @@ def main():
     mystery(10, 31)
 
 
-    def mystery(x, y):
-        s = 0
-        while x > 0 and 2*y >= x:
-            print(s, end=" ")
-            y = y - x
+def mystery(x, y):
+    s = 0
+    while x > 0 and 2*y >= x:
+        print(s, end=" ")
+        y = y - x
         x -= 1
         s = s + 2 * x
         print(s)
 
-    main()
+main()
