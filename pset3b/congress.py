@@ -17,7 +17,7 @@ def main():
             print ("The candidate is eligible for election to the Senate but is NOT eligible for election to the House of Representatives.")
     else:
         print ("The candidate is NOT eligible for election to either the House of Representatives or the Senate.")
-
+main ()
 
 # def eligible_for_house (age, length_of_citizenship):
 #     if age >= 25 and length_of_citizenship >= 7:
