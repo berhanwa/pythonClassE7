@@ -10,7 +10,7 @@ def print_range (x,y):
     else:
         print (i-1)
 
-print_range()
+print_range(x,y)
 
     # while x < y:
     #     print (x += 1)
