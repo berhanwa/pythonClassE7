@@ -11,9 +11,9 @@ def main():
     verse (9, "on my spine")
     verse (10, "once again")
 
-    def verse (n ):
-        print ("This old man, he played", n)
-        print ("He played knick-knack", n)
+    def verse (n, str):
+        print ("This old man, he played", n + str)
+        print ("He played knick-knack", n + str)
 
 
     def chorus ():
