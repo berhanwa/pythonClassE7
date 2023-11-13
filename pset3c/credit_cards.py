@@ -11,5 +11,7 @@ for i in range (1,8):
         alt_sum += i
     else:
         double += i
+    cc_number = cc_number//10
 
-return alt_sum
+total_sum(alt_sum, double):
+    return ()
