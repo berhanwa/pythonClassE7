@@ -11,3 +11,5 @@ for i in range (1,8):
         alt_sum += i
     else:
         double += i
+
+return alt_sum
