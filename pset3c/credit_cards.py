@@ -5,4 +5,7 @@
 cc_number = int(input('Provide your credit card number: '))
 
 for i in range (1,8):
-    print
+    if i % 0 == 0:
+        alt_sum = i
+    else:
+        
