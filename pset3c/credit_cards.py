@@ -16,4 +16,4 @@ for i in range (1,8):
 total_sum(alt_sum, double):
     return ()
 
-double 
+ += (double)
