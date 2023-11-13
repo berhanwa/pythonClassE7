@@ -7,7 +7,7 @@ alt_sum = 0
 double = 0
 
 for i in range (1,9):
-    if i % 0 == 0:
+    if i % 0 != 0:
         alt_sum += i
     else:
         double += i
