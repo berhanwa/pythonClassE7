@@ -9,6 +9,8 @@ def my_min(x, y, z):
         return x
     elif (y < x and y < z):
         return y
-    else (z < x and z < y):
+    else:
         return z
 
+    # else (z < x and z < y):
+    #     return z
