@@ -8,6 +8,6 @@ double = 0
 
 for i in range (1,8):
     if i % 0 == 0:
-        alt_sum = i
+        alt_sum += i
     else:
         double = i
