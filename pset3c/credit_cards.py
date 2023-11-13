@@ -2,5 +2,4 @@
 
 # From right -> left, find the sum of every other digit
 
-hjfgjhg
-kj
+cc_number = int(input('Enter your credit card number: '))
