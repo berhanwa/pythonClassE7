@@ -11,6 +11,7 @@ def my_min(x, y, z):
         return y
     else:
         return z
-
+    
+my_min(x, y, z)
     # else (z < x and z < y):
     #     return z
