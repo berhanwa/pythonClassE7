@@ -18,3 +18,7 @@ total_sum(alt_sum, double):
 
  doubles_sum = (2 * double):
 # if 2 * double results in a double digit number, then split up into single digits i.e. 18 becomes 1 and 8. Then need to sum everything up together
+
+# Returns the sum of the integers 1 through n. (from textbook)
+# def sum_of(n):
+#     return (n + 1) * n // 2
