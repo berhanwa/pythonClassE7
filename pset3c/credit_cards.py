@@ -6,7 +6,7 @@ cc_number = int(input('Provide your credit card number: '))
 alt_sum = 0
 double = 0
 
-for i in range (1,8):
+for i in range (1,9):
     if i % 0 == 0:
         alt_sum += i
     else:
