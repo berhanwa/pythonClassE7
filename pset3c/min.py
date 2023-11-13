@@ -1,7 +1,7 @@
+# Returns the integer that has the smallest value between x, y, and z.
 x = int(input('Enter the first number: '))
 y = int(input('Enter the second number: '))
 z = int(input('Enter the third number: '))
-
 
 # Returns the integer that has the smallest value between x, y, and z.
 def my_min(x, y, z):
@@ -11,7 +11,8 @@ def my_min(x, y, z):
         return y
     else:
         return z
-    
-my_min(x, y, z)
+
+print (my_min(x, y, z))
+
     # else (z < x and z < y):
     #     return z
