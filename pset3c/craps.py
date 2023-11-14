@@ -6,8 +6,8 @@ import random
 
 # roll 2 dice
 def do_roll():
-    roll_1 = random.randint(1, 7)
-    roll_2 = random.randint(1, 7)
+    roll_1 = random.randint(1, 6)
+    roll_2 = random.randint(1, 6)
     return roll_1 + roll_2
 
 def print_roll(roll_1, roll_2):
