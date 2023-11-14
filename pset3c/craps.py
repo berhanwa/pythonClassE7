@@ -8,3 +8,6 @@ def do_roll():
 def print_roll(roll_1, roll_2):
     print ()
 
+def get_point():
+    takes no input
+    
