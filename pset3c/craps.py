@@ -8,11 +8,12 @@ import random
 def do_roll():
     roll_1 = random.randint(1, 6)
     roll_2 = random.randint(1, 6)
+    # print (roll_1)
+    # print (roll_2)
     return roll_1 + roll_2
 
-print (roll_1)
-print (roll_2)
 print (do_roll())
+
 
 # def print_roll(roll_1, roll_2):
 #     print ()
