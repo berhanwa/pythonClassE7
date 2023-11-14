@@ -10,5 +10,6 @@ def drunk_walk():
         return total blocks walked
 
 def main():
-
-# this process is repeated N times
+    # this process is repeated N times
+    for i in range (N):
+        steps = drunk_walk
