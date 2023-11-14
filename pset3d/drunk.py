@@ -1,8 +1,8 @@
 import random
 
 def drunk_walk():
-    walk= random.randint(1, 5)
-    while walk == 
+    steps = random.randint(1, 5)
+    while steps ==
         # simulates drunk walk
         # starts at 6, can randomly go either down to 1 or up to 11
 
