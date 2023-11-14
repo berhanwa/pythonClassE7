@@ -3,12 +3,12 @@ import random
 # end_block variable HOME if 1
 # end_block variable JAIL if 11
 
-start_block = 6
+# start_block = 6
 
 def drunk_walk():
 
     block = random.randint(1, 11)
-        while True:
+    while True:
             if block == 1:
                 print ("HOME")
             elif block == 11:
@@ -16,6 +16,7 @@ def drunk_walk():
             break
 
     return block
+print (block)
 
 #   # steps ==
 #         # simulates drunk walk
