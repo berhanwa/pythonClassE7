@@ -6,6 +6,9 @@ import random
 # start_block = 6
 block = random.randint(1, 11)
 
+# The student randomly wanders either up or down a block, so the rand range function here
+wander = random.randrange(-1, 2, 2)
+
 def drunk_walk():
 
     while True:
