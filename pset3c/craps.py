@@ -17,6 +17,9 @@ def print_roll(roll_1, roll_2):
 
 
 def get_point():
+
+    while True:
+
     if do_roll() == 4 or 5 or 6 or 8 or 9 or 10:
         do_roll() += int(point)
     elif do_roll() == 7:
