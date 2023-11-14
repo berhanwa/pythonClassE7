@@ -6,20 +6,22 @@
 def do_roll():
     roll_1 = random.randint(1,6)
     roll_2 = random.randint(1,6)
-    return sum of rolls
+    return roll_1 + roll_2
 
-def print_roll(roll_1, roll_2):
-    print ()
+print (do_roll())
 
-def get_point():
-    takes no input
-    rolls until point is est
-    return val of point
+# def print_roll(roll_1, roll_2):
+#     print ()
 
-def play_from_point(point):
-    takes point val
-    cont game until W or L
-    take bool for ^
+# def get_point():
+#     takes no input
+#     rolls until point is est
+#     return val of point
 
-print ("Computer rolls a", roll_1 "and a" roll_2 "for a total of" )
-# use 2 separate while loops for this game
+# def play_from_point(point):
+#     takes point val
+#     cont game until W or L
+#     take bool for ^
+
+# print ("Computer rolls a", roll_1 "and a" roll_2 "for a total of" )
+# # use 2 separate while loops for this game
