@@ -7,7 +7,7 @@ end_block variable JAIL if 11
 def drunk_walk():
     start_block = 6
 
-    steps = random.randint(1, 11)
+    blocks = random.randint(1, 11)
     while True:
         
     steps ==
