@@ -3,11 +3,14 @@ import random
 end_block variable HOME if 1
 end_block variable JAIL if 11
 
-start_block = 6
 
 def drunk_walk():
+    start_block = 6
+
     steps = random.randint(1, 11)
-    while steps ==
+    while True:
+        
+    steps ==
         # simulates drunk walk
         # starts at 6, can randomly go either down to 1 or up to 11
         return total blocks walked
