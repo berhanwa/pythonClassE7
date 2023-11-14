@@ -28,8 +28,8 @@ def get_point():
 #     return val of point
 
 
-def play_from_point(point):
-    while point != 7:
+# def play_from_point(point):
+#     while point != 7:
         # keep playing
 
 #     takes point val
