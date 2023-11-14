@@ -1,9 +1,9 @@
 import random
 
-end_point variable HOME if 1
-end_point variable JAIL if 11
+end_block variable HOME if 1
+end_block variable JAIL if 11
 
-start = 6
+start_block = 6
 
 def drunk_walk():
     steps = random.randint(1, 11)
