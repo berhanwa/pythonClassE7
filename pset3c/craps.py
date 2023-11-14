@@ -23,15 +23,15 @@ def get_point():
         return 0   # stop immediately
         # print ("YOU LOSE")
 
-
-
-
-
 #     takes no input
 #     rolls until point is est
 #     return val of point
 
-# def play_from_point(point):
+
+def play_from_point(point):
+    while point != 7:
+        # keep playing
+        
 #     takes point val
 #     cont game until W or L
 #     take bool for ^
