@@ -3,7 +3,7 @@ import random
 # end_block variable HOME if 1
 # end_block variable JAIL if 11
 
-# start_block = 6
+start_block = 6
 block = random.randint(1, 11)
 
 # The student randomly wanders either up or down a block, so the rand range function here yields either -1 or 1
