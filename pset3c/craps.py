@@ -1,14 +1,17 @@
 # roll_1 = int(input('Roll the first die! '))
 # roll_2 = int(input('Now roll the second die! '))
 
-from random import *
+# from random import *
+import random
 
 # roll 2 dice
 def do_roll():
-    roll_1 = random.randint(1,6)
-    roll_2 = random.randint(1,6)
+    roll_1 = random.randint(1, 6)
+    roll_2 = random.randint(1, 6)
     return roll_1 + roll_2
 
+print (roll_1)
+print (roll_2)
 print (do_roll())
 
 # def print_roll(roll_1, roll_2):
