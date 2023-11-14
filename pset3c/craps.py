@@ -38,7 +38,7 @@ def play_from_point(point):
         if roll == point:
             return True
 
-# game() wraps everything up and prints the results of whether the 
+# game() wraps everything up and prints the results of whether the rolls' sum results in a point (win) or a 7 (loss)
 def game():
     point = get_point()
     print (f"{point} is now the established POINT.")
@@ -48,5 +48,5 @@ def game():
         print ("YOU LOSE")
 
 
-
-# # use 2 separate while loops for this game
+# Called the game function
+game ()
