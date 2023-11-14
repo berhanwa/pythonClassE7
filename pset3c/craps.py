@@ -14,8 +14,10 @@ def do_roll():
 
 print (do_roll())
 
- if do_roll = 4 or 5 or 6 or 8 or 9 or 10
-    
+ if do_roll = 4 or 5 or 6 or 8 or 9 or 10:
+    do_roll = point
+ else do_roll = loss
+
 
 # def print_roll(roll_1, roll_2):
 #     print ()
