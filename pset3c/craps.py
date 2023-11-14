@@ -1,7 +1,3 @@
-# roll_1 = int(input('Roll the first die! '))
-# roll_2 = int(input('Now roll the second die! '))
-
-# from random import *
 import random
 
 # roll 2 dice
