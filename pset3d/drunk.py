@@ -4,10 +4,10 @@ import random
 # end_block variable JAIL if 11
 
 # start_block = 6
+block = random.randint(1, 11)
 
 def drunk_walk():
 
-    block = random.randint(1, 11)
     while True:
             if block == 1:
                 print ("HOME")
