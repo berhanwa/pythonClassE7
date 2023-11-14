@@ -16,8 +16,8 @@ print (do_roll())
 
  if do_roll = 4 or 5 or 6 or 8 or 9 or 10:
     do_roll = point
- else do_roll = loss
-
+ else do_roll = 7
+    print ("YOU LOSE")
 
 # def print_roll(roll_1, roll_2):
 #     print ()
