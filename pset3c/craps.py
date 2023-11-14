@@ -17,15 +17,15 @@ def print_roll(roll_1, roll_2):
     print (do_roll())
 
 
-def get_point():
+# def get_point():
 
-    # while True:
+#     # while True:
 
-    if roll_sum == 4 or 5 or 6 or 8 or 9 or 10:
-        roll_sum = int(point)
-    elif do_roll() == 7:
-        return 0   # stop immediately
-        # print ("YOU LOSE")
+#     if roll_sum == 4 or 5 or 6 or 8 or 9 or 10:
+#         roll_sum = int(point)
+#     elif do_roll() == 7:
+#         return 0   # stop immediately
+#         # print ("YOU LOSE")
 
 #     takes no input
 #     rolls until point is est
