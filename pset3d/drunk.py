@@ -1,5 +1,8 @@
 import random
 
+end_point variable HOME if 1
+end_point variable JAIL if 11
+
 start = 6
 
 def drunk_walk():
