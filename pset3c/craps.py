@@ -8,13 +8,15 @@ import random
 def do_roll():
     roll_1 = random.randint(1, 7)
     roll_2 = random.randint(1, 7)
-    # print (roll_1)
-    # print (roll_2)
     return roll_1 + roll_2
 
-print (do_roll())
-
 def print_roll(roll_1, roll_2):
+    print (roll_1)
+    print (roll_2)
+    print (do_roll())
+
+
+def get_point():
     if do_roll == 4 or 5 or 6 or 8 or 9 or 10:
         do_roll = point
     elif do_roll == 7:
@@ -23,7 +25,8 @@ def print_roll(roll_1, roll_2):
 
 
 
-# def get_point():
+
+
 #     takes no input
 #     rolls until point is est
 #     return val of point
