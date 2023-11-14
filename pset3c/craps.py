@@ -1,16 +1,15 @@
 import random
 
-# roll 2 dice
+# do_roll() function 'rolls' the dice
 def do_roll():
     roll_1 = random.randint(1, 6)
     roll_2 = random.randint(1, 6)
-    roll_sum = roll_1 + roll_2
-    return roll_sum
+    print_roll(roll_1, roll_2)
+    return roll_1 + roll_2
 
+# print_roll() function prints the results of the rolls
 def print_roll(roll_1, roll_2):
-    print (roll_1)
-    print (roll_2)
-    print (do_roll())
+    print (f"Computer rolls a {roll_1} and a {roll_2} )
 
 
 # def get_point():
