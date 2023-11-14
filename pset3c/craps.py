@@ -17,9 +17,9 @@ def print_roll(roll_1, roll_2):
 
 
 def get_point():
-    if do_roll == 4 or 5 or 6 or 8 or 9 or 10:
-        do_roll += int(point)
-    elif do_roll == 7:
+    if do_roll() == 4 or 5 or 6 or 8 or 9 or 10:
+        do_roll() += int(point)
+    elif do_roll() == 7:
         return 0   # stop immediately
         # print ("YOU LOSE")
 
@@ -28,9 +28,9 @@ def get_point():
 #     return val of point
 
 
-def play_from_point(point):
-    while point != 7:
-        keep playing
+# def play_from_point(point):
+#     while point != 7:
+        # keep playing
 
 #     takes point val
 #     cont game until W or L
