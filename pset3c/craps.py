@@ -25,14 +25,28 @@ def get_point():
 
     return point
 
-# play_from_point() function finds the point for the first round and returns it (first while loop is used here)
+# play_from_point() function calculates if a roll results in a win or a loss by using Boolean logic (second while loop is used here)
 def play_from_point(point):
-    while point != 7:
-        keep playing
+    while True:
+        roll = do_roll()
 
-#     takes point val
-#     cont game until W or L
-#     take bool for ^
+#       returns loss
+        if roll == 7:
+            return False
 
-# print ("Computer rolls a", roll_1 "and a" roll_2 "for a total of" )
+#       returns win
+        if roll == point:
+            return True
+
+# game() wraps everything up and prints the results of whether the 
+def game():
+    point = get_point()
+    print (f"{point} is now the established POINT.")
+    if play_from_point(point):
+        print ("YOU WIN")
+    else:
+        print ("YOU LOSE")
+
+
+
 # # use 2 separate while loops for this game
