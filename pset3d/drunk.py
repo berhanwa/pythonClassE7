@@ -20,6 +20,14 @@ def drunk_walk():
     return steps
 print (steps)
 
+
+def main():
+    
+    # this process is repeated N times
+    for i in range (N):
+        steps = drunk_walk
+
+
             # if block == 1:
             #     print ("HOME")
             # elif block == 11:
@@ -30,8 +38,3 @@ print (steps)
 #   # steps ==
 #         # simulates drunk walk
 #         # starts at 6, can randomly go either down to 1 or up to 11
-
-# def main():
-#     # this process is repeated N times
-#     for i in range (N):
-#         steps = drunk_walk
