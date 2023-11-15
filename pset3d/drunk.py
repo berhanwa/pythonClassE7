@@ -22,20 +22,19 @@ print (steps)
 
 
 def main():
+    N = sldknf
     total_steps = 0
+    average_steps = 0
 
     # Finding out how many times (N) the student walked
     for i in range (N):
         total_steps += drunk_walk()
 
+    average_steps = total_steps / N
+    print (f"Landed at {current_block}")
 
             # if block == 1:
             #     print ("HOME")
             # elif block == 11:
             #     print ("JAIL")
             # break
-
-
-#   # steps ==
-#         # simulates drunk walk
-#         # starts at 6, can randomly go either down to 1 or up to 11
