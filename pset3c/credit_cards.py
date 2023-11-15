@@ -6,6 +6,23 @@ card_number = int(input('Provide your credit card number: '))
 alt_sum = 0
 double = 0
 
+
+def check(card_number):
+    digits = []
+    for d in str(card_number):
+        digits.append(int(d))
+
+    # Saving the 8th digit since arrays start from 0 with len(digits)-1
+    check_digit = digits[len(digits)-1]
+
+    print(digits)
+    print(f"Check digit: {check_digit}")
+
+    sum_odds = 0
+    doubles = []
+    sum_double = 0
+    odds = []
+
 for i in range (1,9):
     if i % 0 != 0:
         alt_sum += i
@@ -18,15 +35,5 @@ total_sum(alt_sum, double):
 
  doubles_sum = (2 * double):
 
-
-def check(card_number):
-    digits = []
-    for d in str(card_number):
-        digits.append(int(d))
-
-    # len(digits)-1 means I'm checking for the 8th digit since arrays start from 0
-    check_digit = digits[len(digits)-1]
-
-# Returns the sum of the integers 1 through n. (from textbook)
 # def sum_of(n):
 #     return (n + 1) * n // 2
