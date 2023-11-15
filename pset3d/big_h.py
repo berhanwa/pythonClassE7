@@ -9,6 +9,7 @@ def print_h_block(size):
     for i in range(2*size + 1):
         if i == size :
             for j in range(i):
+                # Prints * as many times as size is set to
                 print('*' * size + '*' * size + '*' * size)
 
         else:
