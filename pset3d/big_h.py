@@ -8,8 +8,11 @@ def print_h_block(size):
     # Setting the parameters to ensure users only submit a value between 1 and 10 in order to see an 'H'
     for i in range(2*size + 1):
         if i == size :
+
+             # Prints middle row as many times as size is set to
             for j in range(i):
-                # Prints * as many times as size is set to
+
+                # Set * 3 times because in the
                 print('*' * size + '*' * size + '*' * size)
 
          # Prints * and negative spaces as many times as size is set to
