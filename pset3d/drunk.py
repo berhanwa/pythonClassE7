@@ -13,9 +13,10 @@ def drunk_walk():
 
         # The student randomly wanders either up or down a block, so the rand range function here yields either -1 or 1
         wander = random.randrange(-1, 2, 2)
+        # The current block she's at gets updated to the block that she wanders to
         current_block += wander
         steps += 1
-        
+
     return steps
 print (steps)
 
