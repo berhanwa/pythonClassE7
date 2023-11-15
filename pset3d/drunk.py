@@ -1,8 +1,5 @@
 import random
 
-# end_block variable HOME if 1
-# end_block variable JAIL if 11
-
 
 def drunk_walk():
     current_block = 6
@@ -15,9 +12,17 @@ def drunk_walk():
         wander = random.randrange(-1, 2, 2)
         # The current block she's at gets updated to the block that she wanders to
         current_block += wander
-        steps += 1
-    print (steps)
-    return steps
+        total_blocks_walked += 1
+
+    print (f"Took {total_blocks_walked} steps, and")
+
+    # Setting the conditions where it says if the student ended up at home (1) or at the jail (11, or else in this case)
+    if current_block == 1:
+        print("Landed at HOME")
+    else:
+        print("Landed at JAIL")
+
+    return total_blocks_walked
 
 
 
@@ -38,3 +43,5 @@ def main():
             # elif block == 11:
             #     print ("JAIL")
             # break
+
+main()
