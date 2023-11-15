@@ -52,16 +52,16 @@ def check(card_number):
     # total_sum(alt_sum, double):
     #     return ()
     print (f"Result: {sum_odds} + {sum_double} = {result}")
-        if result % 10 == 0:
-            print("VALID")
-        else:
-            print("INVALID")
-            # Find target check_digit for valid result (rounded to nearest 10)
-            target_result = round(result, -1) # ensures last digit is 0
-            target_sum_odds = target_result - sum_double # target_sum_odds + sum_double = target_result
-            target_check_digit = target_sum_odds - (sum_odds - check_digit) # target_check_digit + (sum_odds - check_digit) = target_sum_odds
+    if result % 10 == 0:
+        print("VALID")
+    else:
+        print("INVALID")
+        # Find target check_digit for valid result (rounded to nearest 10)
+        target_result = round(result, -1) # ensures last digit is 0
+        target_sum_odds = target_result - sum_double # target_sum_odds + sum_double = target_result
+        target_check_digit = target_sum_odds - (sum_odds - check_digit) # target_check_digit + (sum_odds - check_digit) = target_sum_odds
 
-            print(f"Target check digit: {target_check_digit}")
+        print(f"Target check digit: {target_check_digit}")
 
 
 
