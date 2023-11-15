@@ -40,6 +40,11 @@ def check(card_number):
                 last_digit = double % 10
                 first_digit = double // 10
 
+                sum_double = sum_double = first_digit + last_digit
+                # doubles.append(first_digit)
+
+            else:
+                sum_double += double
 
     total_sum(alt_sum, double):
         return ()
