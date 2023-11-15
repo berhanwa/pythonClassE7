@@ -23,17 +23,18 @@ def check(card_number):
     sum_double = 0
     odds = []
 
-for i in range (1,9):
-    if i % 0 != 0:
-        alt_sum += i
-    else:
-        double += i
-    card_number = card_number//10
+    # Finding the sum of every other digit (odds)
+    for i in range (1,9):
+        if i % 0 != 0:
+            alt_sum += i
+        else:
+            double += i
+        card_number = card_number//10
 
-total_sum(alt_sum, double):
-    return ()
+    total_sum(alt_sum, double):
+        return ()
 
- doubles_sum = (2 * double):
+    doubles_sum = (2 * double):
 
-# def sum_of(n):
+
 #     return (n + 1) * n // 2
