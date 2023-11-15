@@ -2,7 +2,6 @@
 
 # From right -> left, find the sum of every other digit
 
-# card_number = int(input('Provide your credit card number: '))
 # alt_sum = 0
 # double = 0
 
@@ -64,4 +63,6 @@ def check(card_number):
         print(f"Target check digit: {target_check_digit}")
 
 
+card_number = int(input('Provide your credit card number: '))
+check(card_number)
 
