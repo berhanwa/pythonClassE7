@@ -48,9 +48,9 @@ def check(card_number):
         print("VALID")
     else:
         print("INVALID")
-        # Finds the check_digit in order to get a valid result (rounded to nearest 10)
-        valid_result = round(result, -1) # ensures last digit is 0
-        valid_sum_odds = valid_result - sum_double # target_sum_odds + sum_double = target_result
+        # Finds the check_digit in order to get a valid result
+        valid_result = round(result, -1) # ensures last digit is 0 by rounding to the nearest 10
+        valid_sum_odds = valid_result - sum_double # valid_sum_odds + sum_double = target_result
         valid_check_digit = valid_sum_odds - (sum_odds - check_digit) # valid_check_digit + (sum_odds - check_digit) = valid_sum_odds
 
         print(f"Target check digit: {valid_check_digit}")
