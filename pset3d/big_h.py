@@ -12,6 +12,7 @@ def print_h_block(size):
                 # Prints * as many times as size is set to
                 print('*' * size + '*' * size + '*' * size)
 
+         # Prints * and negative spaces as many times as size is set to
         else:
             print('*' * size + ' ' * size + '*' * size)
 
