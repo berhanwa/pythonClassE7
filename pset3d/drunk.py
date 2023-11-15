@@ -36,11 +36,8 @@ def main():
         print("Here we go again... time for a walk!")
         total_steps += drunk_walk()
 
+        # Here, calculated the average steps by dividing the total steps by the amount of times walked (N)
         average_steps = total_steps / N
         print (f"Average # of steps equals {round(average_steps, 1)}")
 
-            # if block == 1:
 main()
-
-# end_block variable HOME if 1
-# end_block variable JAIL if 11
