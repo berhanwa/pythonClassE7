@@ -16,13 +16,13 @@ def drunk_walk():
         # The current block she's at gets updated to the block that she wanders to
         current_block += wander
         steps += 1
-
+    print (steps)
     return steps
-print (steps)
+
 
 
 def main():
-    N = sldknf
+    N = 0
     total_steps = 0
     average_steps = 0
 
