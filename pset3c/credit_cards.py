@@ -1,7 +1,5 @@
 # The last digit of a credit card is check digit
 
-# From right -> left, find the sum of every other digit
-
 def check(card_number):
     digits = []
     for d in str(card_number):
@@ -49,9 +47,9 @@ def check(card_number):
     else:
         print("INVALID")
         # Finds the check_digit in order to get a valid result
-        valid_result = round(result, -1) # ensures last digit is 0 by rounding to the nearest 10
-        valid_sum_odds = valid_result - sum_double # valid_sum_odds + sum_double = target_result
-        valid_check_digit = valid_sum_odds - (sum_odds - check_digit) # valid_check_digit + (sum_odds - check_digit) = valid_sum_odds
+        valid_result = round(result, -1) # Ensures last digit is 0 by rounding to the nearest 10
+        valid_sum_odds = valid_result - sum_double # Finds the sum of odd digits w the valid check digits
+        valid_check_digit = valid_sum_odds - (sum_odds - check_digit) # Finds the valid check digits by subtracting the remaining digits from valid_sum_odd
 
         print(f"Target check digit: {valid_check_digit}")
 
