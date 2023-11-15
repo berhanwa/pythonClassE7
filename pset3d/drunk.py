@@ -4,24 +4,27 @@ import random
 # end_block variable JAIL if 11
 
 
-
-# The student randomly wanders either up or down a block, so the rand range function here yields either -1 or 1
-wander = random.randrange(-1, 2, 2)
-
 def drunk_walk():
     current_block = 6
     steps = 0
 
     # block = random.randint(1, 11)
     while current_block != 1 and current_block != 11:
-            if block == 1:
-                print ("HOME")
-            elif block == 11:
-                print ("JAIL")
-            break
 
-    return block
-print (block)
+        # The student randomly wanders either up or down a block, so the rand range function here yields either -1 or 1
+        wander = random.randrange(-1, 2, 2)
+        current_block += wander
+        steps += 1
+        
+    return steps
+print (steps)
+
+            # if block == 1:
+            #     print ("HOME")
+            # elif block == 11:
+            #     print ("JAIL")
+            # break
+
 
 #   # steps ==
 #         # simulates drunk walk
