@@ -35,7 +35,7 @@ def check(card_number):
         else:
             double = digits[i] * 2
 
-            # If they are double digits, double them Then splits 'double's values into single digits
+            # If they are double digits, then splits 'double's values into single digits
             if double > 9:
                 sum_odds += digits[i]
                 odds.append(digits[i])
