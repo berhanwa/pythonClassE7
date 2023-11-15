@@ -13,7 +13,7 @@ def drunk_walk():
     steps = 0
 
     # block = random.randint(1, 11)
-    while start_block:
+    while start_block != 1 and start_block != 11:
             if block == 1:
                 print ("HOME")
             elif block == 11:
