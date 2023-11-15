@@ -24,7 +24,7 @@ def check(card_number):
     for d in str(card_number):
         digits.append(int(d))
 
-    # if 2 * double results in a double digit number, then split up into single digits i.e. 18 becomes 1 and 8. Then need to sum everything up together
+    # Gets 
     check_digit = digits[len(digits)-1]
 
 # Returns the sum of the integers 1 through n. (from textbook)
