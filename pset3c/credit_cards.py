@@ -2,10 +2,6 @@
 
 # From right -> left, find the sum of every other digit
 
-# alt_sum = 0
-# double = 0
-
-
 def check(card_number):
     digits = []
     for d in str(card_number):
@@ -13,9 +9,6 @@ def check(card_number):
 
     # Saving the 8th digit since arrays start from 0 with len(digits)-1
     check_digit = digits[len(digits)-1]
-
-    print(digits)
-    print(f"Check digit: {check_digit}")
 
     sum_odds = 0
     doubles = []
@@ -48,19 +41,19 @@ def check(card_number):
 
     result = sum_odds + sum_double
 
-    # total_sum(alt_sum, double):
-    #     return ()
+
+    # Here, print the results and verify if the check digit is valid or not
     print (f"Result: {sum_odds} + {sum_double} = {result}")
     if result % 10 == 0:
         print("VALID")
     else:
         print("INVALID")
-        # Find target check_digit for valid result (rounded to nearest 10)
-        target_result = round(result, -1) # ensures last digit is 0
-        target_sum_odds = target_result - sum_double # target_sum_odds + sum_double = target_result
-        target_check_digit = target_sum_odds - (sum_odds - check_digit) # target_check_digit + (sum_odds - check_digit) = target_sum_odds
+        # Finds the check_digit in order to get a valid result (rounded to nearest 10)
+        valid_result = round(result, -1) # ensures last digit is 0
+        valid_sum_odds = valid_result - sum_double # target_sum_odds + sum_double = target_result
+        valid_check_digit = valid_sum_odds - (sum_odds - check_digit) # valid_check_digit + (sum_odds - check_digit) = valid_sum_odds
 
-        print(f"Target check digit: {target_check_digit}")
+        print(f"Target check digit: {valid_check_digit}")
 
 
 card_number = int(input('Provide your credit card number: '))
