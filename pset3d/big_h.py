@@ -12,7 +12,6 @@ def print_h(size):
              # Prints middle row as many times as size is set to
             for j in range(i):
 
-                # Set * 3 times because the least amount of size will yield 3 rows
                 # Middle row has * as the middle column instead of ' '
                 print('*' * size + '*' * size + '*' * size)
 
