@@ -16,7 +16,7 @@ def check(card_number):
     # Finding the sum of every other digit (odds)
     for i in range (len(digits)-1, -1, -1):
 
-        # return (n + 1) * n // 2
+        # Find digits to add up and double
         if i % 2 != 0:
             sum_odds += digits[i]
             odds.append(digits[i])
