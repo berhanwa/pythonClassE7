@@ -9,11 +9,11 @@ import random
 wander = random.randrange(-1, 2, 2)
 
 def drunk_walk():
-    start_block = 6
+    current_block = 6
     steps = 0
 
     # block = random.randint(1, 11)
-    while start_block != 1 and start_block != 11:
+    while current_block != 1 and current_block != 11:
             if block == 1:
                 print ("HOME")
             elif block == 11:
