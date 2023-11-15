@@ -12,7 +12,8 @@ def print_h_block(size):
              # Prints middle row as many times as size is set to
             for j in range(i):
 
-                # Set * 3 times because in the
+                # Set * 3 times because in the example , there is a correlation between 3 rows being multiplied to the # of size
+                # Middle row has * as the middle column instead of ' '
                 print('*' * size + '*' * size + '*' * size)
 
          # Prints * and negative spaces as many times as size is set to
