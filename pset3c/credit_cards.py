@@ -1,5 +1,3 @@
-# The last digit of a credit card is check digit
-
 def check(card_number):
     digits = []
     for d in str(card_number):
