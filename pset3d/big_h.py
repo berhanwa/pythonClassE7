@@ -1,4 +1,4 @@
-def print_h_block(size):
+def print_h(size):
 
     # Setting the parameters to ensure users only submit a value between 1 and 10 in order to see an 'H'
     if size < 1 or size > 10:
@@ -22,4 +22,4 @@ def print_h_block(size):
 
 
 user_input = int(input("Please enter a number between 1 and 10 for the size of the letter 'H' "))
-print_h_block(user_input)
+print_h(user_input)
