@@ -17,12 +17,15 @@ total_sum(alt_sum, double):
     return ()
 
  doubles_sum = (2 * double):
-# if 2 * double results in a double digit number, then split up into single digits i.e. 18 becomes 1 and 8. Then need to sum everything up together
+
 
 def check(card_number):
     digits = []
     for d in str(card_number):
         digits.append(int(d))
+
+    # if 2 * double results in a double digit number, then split up into single digits i.e. 18 becomes 1 and 8. Then need to sum everything up together
+    check_digit = digits[len(digits)-1]
 
 # Returns the sum of the integers 1 through n. (from textbook)
 # def sum_of(n):
