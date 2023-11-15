@@ -27,21 +27,20 @@ def drunk_walk():
 
 
 def main():
-    N = 0
+    N = 5
     total_steps = 0
     average_steps = 0
 
     # Finding out how many times (N) the student walked
     for i in range (N):
+        print("Here we go again... time for a walk!")
         total_steps += drunk_walk()
 
-    average_steps = total_steps / N
-    print (f"Landed at {current_block}")
+        average_steps = total_steps / N
+        print (f"Average # of steps equals {round(average_steps, 1)}")
 
             # if block == 1:
-            #     print ("HOME")
-            # elif block == 11:
-            #     print ("JAIL")
-            # break
-
 main()
+
+# end_block variable HOME if 1
+# end_block variable JAIL if 11
