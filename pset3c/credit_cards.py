@@ -24,7 +24,7 @@ def check(card_number):
     for d in str(card_number):
         digits.append(int(d))
 
-    # Gets 
+    # len(digits)-1
     check_digit = digits[len(digits)-1]
 
 # Returns the sum of the integers 1 through n. (from textbook)
