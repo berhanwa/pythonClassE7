@@ -31,15 +31,15 @@ def check(card_number):
             sum_odds += digits[i]
             odds.append(digits[i])
 
-        # If they are double digits, double them then split into single digits
+        # Multiplies double values by 2
         else:
-            
-        card_number = card_number//10
+            double = digits[i] * 2
 
-            # If they are double digits, double them then split into single digits
-            if i % 2 != 0:
+            # If they are double digits, double them Then splits 'double's values into single digits
+            if double > 9:
                 sum_odds += digits[i]
                 odds.append(digits[i])
+
 
     total_sum(alt_sum, double):
         return ()
