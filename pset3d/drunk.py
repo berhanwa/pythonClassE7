@@ -22,10 +22,11 @@ print (steps)
 
 
 def main():
-    
-    # this process is repeated N times
+    total_steps = 0
+
+    # Finding out how many times (N) the student walked
     for i in range (N):
-        steps = drunk_walk
+        total_steps += drunk_walk()
 
 
             # if block == 1:
