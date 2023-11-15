@@ -6,7 +6,7 @@ import random
 
 def drunk_walk():
     current_block = 6
-    steps = 0
+    total_blocks_walked = 0
 
     # block = random.randint(1, 11)
     while current_block != 1 and current_block != 11:
