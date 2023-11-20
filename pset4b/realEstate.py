@@ -12,4 +12,4 @@ def is_vowel(c):
 
 
 ad = "Desirable unfurnished flat in quiet residential area"
-print (is_vowel(c))
+print (de_vowel(ad))
