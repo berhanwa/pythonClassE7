@@ -15,8 +15,8 @@ def random_plate():
     license = f"{random_capital()} {numbers}"
     return license
 
-
-print(random_plate())
+for _ in range (20):
+    print(random_plate())
 
 # def random_plate():
 #     license = ".join( letters + " " + random.randint(100,999) )"
