@@ -3,7 +3,8 @@ def vowel_count(sentence):
     count = 0
     for i in range (len(sentence)):
         if vowels in i:
-    return count += 1
+            count += 1
+    return count
 
         # sentence.count(x) for x in "aeiouAEIOU":
     # return vowel_count(sentence)
