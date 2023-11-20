@@ -3,11 +3,9 @@ def de_vowel(ad):
         # if vowel = is_vowel(ad[i])
         # if is_vowel(c) and is_vowel(ad[i]):
         if is_vowel(ad[i]):
-            ad = ad[:i] + ad [i+1:]
-            
-    return ad
-
-
+            # ad += vowelless_ad
+            vowelless_ad = ad[:i] + ad [i+1:]
+    return vowelless_ad
 
 
 def is_vowel(c):
@@ -18,4 +16,4 @@ def is_vowel(c):
 
 # c = "aeiouAEIOU"
 ad = "Desirable unfurnished flat in quiet residential area"
-print (de_vowel(ad))
+print (vowelless_ad)
