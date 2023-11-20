@@ -7,7 +7,8 @@ def random_capital():
 print (random_capital())
 
 def random_plate():
-    license = ".join( letters + " " + random.randint(100,999) )"
+    numbers = random.randint(100,999)
+    license = f"{letters} {numbers}"
     return license
 print (random_plate())
 
