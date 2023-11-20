@@ -1,1 +1,7 @@
-def vowel_count()
+def vowel_count(sentence)
+    sentence
+
+
+
+
+sentence = "I think, therefore I am"
