@@ -3,7 +3,7 @@ import string
 
 
 def random_capital():
-    letters = random.choice(string.ascii_uppercase)
+    letters = random.choice(string.ascii_uppercase) + for _ in range(3)
     return letters
 
 
