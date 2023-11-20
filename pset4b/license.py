@@ -14,6 +14,7 @@ def random_plate():
     license = f"{random_capital()} {numbers}"
     return license
 
+
 # Here, the results are being printed 20 times within this for loop that has _ as the placeholder variable that gets ignored
 for _ in range (20):
     print(random_plate())
