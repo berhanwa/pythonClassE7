@@ -11,4 +11,5 @@ def vowel_count(sentence):
 
 vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 sentence = "I think, therefore I am"
+print(sentence)
 print (vowel_count(sentence))
