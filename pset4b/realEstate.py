@@ -17,4 +17,4 @@ def is_vowel(c):
 
 # c = "aeiouAEIOU"
 ad = "Desirable unfurnished flat in quiet residential area"
-print (vowelless_ad)
+print (de_vowel(ad))
