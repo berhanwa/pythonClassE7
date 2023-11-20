@@ -1,7 +1,7 @@
 def de_vowel (ad):
     for i in range (1, leng(ad)):
-        if vowel = is_vowel(ad[i])
-
+        # if vowel = is_vowel(ad[i])
+        if is_vowel and is_vowel(ad[i])
 
 
 
