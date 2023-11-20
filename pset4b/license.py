@@ -1,7 +1,8 @@
 import random
+import string
 
 def random_capital():
-    letters = random.choices(letters.ascii_uppercase)
+    letters = random.choices(string.ascii_uppercase)
     return letters
 print (random_capital())
 
