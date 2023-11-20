@@ -3,6 +3,7 @@ def de_vowel (ad):
         # if vowel = is_vowel(ad[i])
         if is_vowel and is_vowel(ad[i]):
             ad = ad[:i] + ad [i+1:]
+            
 
 def is_vowel(c):
     if c in 'aeiouAEIOU':
