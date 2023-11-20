@@ -15,6 +15,7 @@ def random_plate():
     license = f"{random_capital()} {numbers}"
     return license
 
+# Here, the results are being printed
 for _ in range (20):
     print(random_plate())
 
@@ -23,4 +24,4 @@ for _ in range (20):
 #     return license
 # print (random_plate())
 
-# string.printable
+
