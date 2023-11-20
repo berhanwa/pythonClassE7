@@ -11,6 +11,6 @@ def is_vowel(c):
     else:
         return False
 
-
+c = "aeiouAEIOU"
 ad = "Desirable unfurnished flat in quiet residential area"
 print (de_vowel(ad))
