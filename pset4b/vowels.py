@@ -11,5 +11,4 @@ def vowel_count(sentence):
 
 vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 sentence = str(input('Write something: '))
-print(sentence)
 print (vowel_count(sentence))
