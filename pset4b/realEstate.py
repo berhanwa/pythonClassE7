@@ -1,5 +1,5 @@
 def de_vowel(ad):
-    # vowelless_ad = 0
+    vowelless_ad = ' '
     for i in range (1, len(ad)):
         # if vowel = is_vowel(ad[i])
         # if is_vowel(c) and is_vowel(ad[i]):
