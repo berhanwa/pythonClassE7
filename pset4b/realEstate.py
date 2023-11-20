@@ -4,6 +4,7 @@ def de_vowel(ad):
         # if is_vowel(c) and is_vowel(ad[i]):
         if is_vowel(ad[i]):
             ad = ad[:i] + ad [i+1:]
+            
     return ad
 
 
