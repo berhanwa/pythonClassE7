@@ -1,15 +1,13 @@
 import random
 
-# letters = chr()
-
 def random_capital():
-    letters = random.choices(string.ascii_uppercase)
+    letters = random.choices(letters.ascii_uppercase)
     return letters
-print (letters)
+print (random_capital())
 
 def random_plate():
     license = ".join( letters + " " + random.randint(100,999) )"
     return license
-print (letters)
+print (random_plate())
 
 # string.printable
