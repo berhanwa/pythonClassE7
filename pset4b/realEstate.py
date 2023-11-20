@@ -1,4 +1,4 @@
-def de_vowel (ad):
+def de_vowel(ad):
     for i in range (1, len(ad)):
         # if vowel = is_vowel(ad[i])
         if is_vowel(c) and is_vowel(ad[i]):
@@ -11,6 +11,6 @@ def is_vowel(c):
     else:
         return False
 
-c = "aeiouAEIOU"
+# c = "aeiouAEIOU"
 ad = "Desirable unfurnished flat in quiet residential area"
 print (de_vowel(ad))
