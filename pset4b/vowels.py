@@ -1,5 +1,5 @@
 def vowel_count(sentence)
-    sentence
+    sentence.count('aeiouAEIOU')
 
 
 
