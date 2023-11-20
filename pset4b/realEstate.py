@@ -5,7 +5,8 @@ def de_vowel(ad):
         # if is_vowel(c) and is_vowel(ad[i]):
         if is_vowel(ad[i]) and ad[i-1]!=' ':
             # ad += vowelless_ad
-            vowelless_ad = ad[:i] + ad [i+1:]
+            ad = ad[:i] + ad [i+1:]
+            ad += vowelless_ad
     return vowelless_ad
 
 
