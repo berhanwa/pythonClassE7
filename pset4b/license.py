@@ -3,21 +3,20 @@ import string
 
 
 def random_capital():
-    for letters in range (3):
-        letters = random.choice(string.ascii_uppercase)
-    return letters
+    letters = [random.choice(string.ascii_uppercase) for _ in range (3)]
+    return ''.join(letters)
 
 
-print(random_capital())
+# print(random_capital())
 
 
-# def random_plate():
-#     numbers = random.randint(100, 999)
-#     license = f"{random_capital()} {numbers}"
-#     return license
+def random_plate():
+    numbers = random.randint(100, 999)
+    license = f"{random_capital()} {numbers}"
+    return license
 
 
-# print(random_plate())
+print(random_plate())
 
 # def random_plate():
 #     license = ".join( letters + " " + random.randint(100,999) )"
