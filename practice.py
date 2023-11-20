@@ -134,9 +134,3 @@
 
 # main()
 
-
-# phone = int(input('Provide your phone number: '))
-
-phone = '4154954024'
-
-list.insert(index, value)
