@@ -6,7 +6,6 @@ def vowel_count(sentence):
             count += 1
     return count
 
-
 # Specified what vowels and sentence are below, where users enter a sentence
 vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 sentence = str(input('Write something: '))
