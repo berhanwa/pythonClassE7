@@ -1,6 +1,6 @@
 def sentence_type (a_string):
-    lorem
+    # lorem
 
 
 def main():
-    
+
