@@ -1,6 +1,6 @@
 def sentence_type (input):
-    for i in input:
-        if 
+    for i in range(len(input)):
+        if i
 
 
 def vowel_count(sentence):
