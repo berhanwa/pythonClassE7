@@ -12,7 +12,8 @@ vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
 def main ():
     sentence = str('I think, therefore I am')
-    print(sentence '\n' f"Your entry has {vowel_count(sentence)} vowels in it")
+    print(sentence, "\n")
+    print(f"Your entry has {vowel_count(sentence)} vowels in it")
 main ()
 
 # Printed the results of the vowel_count function that lets users know the context
