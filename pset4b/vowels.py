@@ -9,7 +9,7 @@ def vowel_count(sentence):
 # Specified what vowels and sentence are below, where users enter a sentence
 vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
-
+# Printed some example sentences along with their results from the vowel_count function, as per Ben's comment in the Ed discussion
 def main ():
     sentence = str('I think, therefore I am')
     print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
@@ -17,12 +17,10 @@ def main ():
     sentence = str('Birds of a Feather Flock Together')
     print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
 
-    sentence = str('Birds of a Feather Flock Together')
+    sentence = str('Raining Cats and Dogs')
     print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
 main ()
 
-# Printed the results of the vowel_count function that lets users know the context
 
-
-
+# Previously just had the user input the sentence instead of listing out some example ones
 # sentence = str(input('Write something: '))
