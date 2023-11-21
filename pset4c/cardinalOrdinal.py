@@ -1,3 +1,4 @@
+# Defined create_ordinal_form(n) function depending on the last and first values of the n parameter
 def create_ordinal_form(n):
     if n[-1] == "1" and n[0] != "1":
         return n + "st"
@@ -8,9 +9,8 @@ def create_ordinal_form(n):
     else:
         return n + "th"
 
-    # elif n[-1] == "3" and n[0] != "1":
 
-# In the main program, running 
+# In the main program, running the example numbers from the PSET
 def main():
     n = str(1)
     print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
