@@ -11,7 +11,7 @@ def create_ordinal_form(n):
 # ad = str(input('Enter the real estate ad: '))
 def main():
     n = str(1)
-    print(f"{n} returns the String {create_ordinal_form(n)}")
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
 
     # n = str(2)
     # print(f"{n} returns the String {create_ordinal_form(n)}")
