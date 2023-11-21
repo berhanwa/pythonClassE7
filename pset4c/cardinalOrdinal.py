@@ -9,7 +9,7 @@ def create_ordinal_form(n):
         return n + "th"
 
 
-n = str(4)
+n = str(43)
 # ad = str(input('Enter the real estate ad: '))
 print(create_ordinal_form(n))
 
