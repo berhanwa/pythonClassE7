@@ -10,7 +10,7 @@ def create_ordinal_form(n):
 
     # elif n[-1] == "3" and n[0] != "1":
 
-# ad = str(input('Enter the real estate ad: '))
+# In the main program, running 
 def main():
     n = str(1)
     print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
