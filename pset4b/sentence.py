@@ -1,3 +1,7 @@
+# The user is asked to enter something, which gets passed into the sentence_type function below
+entry = str(input('Write something: '))
+
+# Here, the if statements go through each option of what the parameter's last value is, and has the respective option returned
 def sentence_type(entry):
     # for i in range(len(input)):
     if entry[- 1] == ".":
@@ -9,12 +13,8 @@ def sentence_type(entry):
     else:
         return "bad ending"
 
-entry = str(input('Write something: '))
-# entry = "This is a sentence."
 
+# In the main program, the sentence_type function's results get printed out
 def main():
     print(sentence_type(entry))
 main()
-
-
-# print(f"Your entry has {vowel_count(sentence)} vowels in it")
