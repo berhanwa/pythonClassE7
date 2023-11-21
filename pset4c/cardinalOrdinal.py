@@ -1,5 +1,5 @@
 def create_ordinal_form(n):
-    if n[-1] == "1" and n[0] != "1":
+    if n[-1] == "1" and n[-2] != "1":
         return n + "st"
     elif n[-1] == "2" and n[0] != "1":
         return n + "nd"
