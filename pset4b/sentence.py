@@ -9,10 +9,12 @@ def sentence_type(entry):
     else:
         return "bad ending"
 
-print(sentence_type(input))
+entry = str(input('Write something: '))
+# entry = "This is a sentence."
 
 def main():
+    print(sentence_type(entry))
+main()
 
 
-entry = "This is a sentence."
 # print(f"Your entry has {vowel_count(sentence)} vowels in it")
