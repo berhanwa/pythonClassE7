@@ -1,13 +1,14 @@
 def create_ordinal_form(n):
     if n[-1] == "1" and n[-2] != "1":
         return n + "st"
-    elif n[-1] == "2" and n[0] != "1":
+    elif n[-1] == "2" and n[-2] != "1":
         return n + "nd"
-    elif n[-1] == "3" and n[0] != "1":
+    elif n[-1] == "3" and n[-2] != "1":
         return n + "rd"
     else:
         return n + "th"
-
+    
+    # elif n[-1] == "3" and n[0] != "1":
 
 # ad = str(input('Enter the real estate ad: '))
 def main():
