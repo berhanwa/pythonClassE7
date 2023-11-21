@@ -1,11 +1,11 @@
 # The if statements go through each option of what the parameter's last value is, and has the respective option returned
 def sentence_type(entry):
     # for i in range(len(input)):
-    if entry[- 1] == ".":
+    if entry[-1] == ".":
         return "declarative"
-    elif entry[- 1] == "!":
+    elif entry[-1] == "!":
         return "exclamatory"
-    elif entry[- 1] == "?":
+    elif entry[-1] == "?":
         return "interrogative"
     else:
         return "bad ending"
@@ -15,19 +15,19 @@ def sentence_type(entry):
 # The user is asked to enter something, which gets passed into the sentence_type function below
 def main():
     # entry = str(input('Write something: '))
-    entry = str(input('Example of response to a period at the end.'))
+    entry = str(input("Example of response to a period at the end."))
     sentence_type(entry)
     print(sentence_type(entry))
 
-    entry = str(input('Example of response to an exclamation at the end!'))
+    entry = str(input("Example of response to an exclamation at the end!"))
     sentence_type(entry)
     print(sentence_type(entry))
 
-    entry = str(input('Example of response to a question mark at the end?'))
+    entry = str(input("Example of response to a question mark at the end?"))
     sentence_type(entry)
     print(sentence_type(entry))
 
-    entry = str(input('Example of response to nothing at the end'))
+    entry = str(input("Example of response to nothing at the end"))
     sentence_type(entry)
     print(sentence_type(entry))
 
