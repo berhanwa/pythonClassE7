@@ -14,8 +14,11 @@ def main ():
     sentence = str('I think, therefore I am')
     print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
 
-    sentence = str('I think, therefore I am')
-    print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
+    sentence = str('Birds of a Feather Flock Together')
+    print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
+
+    sentence = str('Birds of a Feather Flock Together')
+    print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
 main ()
 
 # Printed the results of the vowel_count function that lets users know the context
