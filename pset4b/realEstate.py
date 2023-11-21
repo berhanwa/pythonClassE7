@@ -9,7 +9,7 @@ def de_vowel(ad):
     return vowelless_ad
 
 def is_vowel(c):
-    c = ' '
+    # c = ' '
     if c in 'aeiouAEIOU':
         return True
     else:
@@ -17,4 +17,4 @@ def is_vowel(c):
 
 ad = "Desirable unfurnished flat in quiet residential area"
 print (de_vowel(ad))
-print (is_vowel(c))
+# print (is_vowel(c))
