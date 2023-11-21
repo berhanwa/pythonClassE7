@@ -9,30 +9,21 @@ def sentence_type(entry):
     else:
         return "bad ending"
 
+# In the main program, the sentence_type function's results get printed out in the different options specified from the sentence_type function
 def main():
-    entry = str(input("Example of response to a period at the end."))
-    # sentence_type(entry)
-    print(entry, "is", sentence_type(entry))
+    entry = str("Example of response to a period at the end.")
+    print(entry, "\n", sentence_type(entry))
 
-    entry = str(input("Example of response to an exclamation at the end!"))
-    sentence_type(entry)
-    print(sentence_type(entry))
+    entry = str("Example of response to an exclamation at the end!")
+    print(entry, "\n", sentence_type(entry))
 
-    entry = str(input("Example of response to a question mark at the end?"))
-    sentence_type(entry)
-    print(sentence_type(entry))
+    entry = str("Example of response to a question mark at the end?")
+    print(entry, "\n", sentence_type(entry))
 
-    entry = str(input("Example of response to nothing at the end"))
-    sentence_type(entry)
-    print(sentence_type(entry))
-
-
+    entry = str("Example of response to nothing at the end")
+    print(entry, "\n", sentence_type(entry))
 main()
 
-    # for i in range(len(input)):
 
-# In the main program, the sentence_type function's results get printed out in a few examples
-# The user is asked to enter something, which gets passed into the sentence_type function below
-
-
-    # entry = str(input('Write something: '))
+# I previously had the user is asked to enter something, and have the result printed but changed direction after seeing Ben's response in the Ed discussion
+# entry = str(input('Write something: '))
