@@ -15,6 +15,9 @@ def sentence_type(entry):
 # The user is asked to enter something, which gets passed into the sentence_type function below
 def main():
     # entry = str(input('Write something: '))
-    entry = str(input('Example of response to a sentence.'))
+    entry = str(input('Example of response to a period at the end.'))
+    entry = str(input('Example of response to an exclamation at the end!'))
+    entry = str(input('Example of response to a question mark at the end?'))
+    entry = str(input('Example of response to nothing at the end'))
     print(sentence_type(entry))
 main()
