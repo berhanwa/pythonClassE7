@@ -5,8 +5,6 @@ def create_ordinal_form(n):
         return n + "nd"
     elif n[-1] == "3" and n[0] != "1":
         return n + "rd"
-    # elif n[0] == "1":
-    #     return n + "th"
     else:
         return n + "th"
 
