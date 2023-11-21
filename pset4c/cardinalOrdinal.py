@@ -13,10 +13,30 @@ def main():
     n = str(1)
     print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
 
-    # n = str(2)
-    # print(f"{n} returns the String {create_ordinal_form(n)}")
+    n = str(2)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
 
-    # n = str(3)
-    # print(create_ordinal_form(n))
+    n = str(3)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
 
+    n = str(10)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(12)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(13)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(21)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(42)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(101)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
+
+    n = str(111)
+    print(f"{n} returns the String \"{create_ordinal_form(n)}\" ")
 main()
