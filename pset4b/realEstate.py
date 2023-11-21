@@ -7,7 +7,7 @@ def is_vowel(c):
 
 def de_vowel(ad):
     vowelless_ad = ' '
-    for i in range (1, len(ad)):
+    for i in range (0, len(ad)):
         # if vowel = is_vowel(ad[i])
         # if is_vowel(c) and is_vowel(ad[i]):
         # if is_vowel(ad[i]) and ad[i-1]!=' ':
