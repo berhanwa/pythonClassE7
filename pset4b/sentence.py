@@ -11,8 +11,8 @@ def sentence_type(entry):
 
 def main():
     entry = str(input("Example of response to a period at the end."))
-    sentence_type(entry)
-    print(sentence_type(entry))
+    # sentence_type(entry)
+    print(entry, "is", sentence_type(entry))
 
     entry = str(input("Example of response to an exclamation at the end!"))
     sentence_type(entry)
