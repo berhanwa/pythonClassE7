@@ -1,9 +1,10 @@
-def sentence_type (input):
+def sentence_type(input):
     # for i in range(len(input)):
-        if input[len-1] == ".":
-            print('declarative')
+    if input[len - 1] == ".":
+        print("declarative")
 
-print(sentence_type (input))
+
+print(sentence_type(input))
 
 # def main():
 
