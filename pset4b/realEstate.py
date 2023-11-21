@@ -17,7 +17,6 @@ def de_vowel(ad):
     return vowelless_ad
 
 
-
 ad = "Desirable unfurnished flat in quiet residential area"
 print (de_vowel(ad))
 # print (is_vowel(c))
