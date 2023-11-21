@@ -1,17 +1,18 @@
 def create_ordinal_form(n):
-    if n[-1] == ".":
-        return "declarative"
-    elif n[-1] == "!":
-        return "exclamatory"
-    elif n[-1] == "?":
-        return "interrogative"
+    if n[-1] == "1":
+        return n + "st"
+    elif n[-1] == "2":
+        return n + "nd"
+    elif n[-1] == "3":
+        return n + "rd"
     else:
-        return "th"
+        return n + "th"
 
 
-n = 0
+n = 2
+print(create_ordinal_form(n))
 
-def main():
+# def main():
 
 
-main()
+# main()
