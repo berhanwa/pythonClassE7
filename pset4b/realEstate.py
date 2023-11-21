@@ -14,5 +14,6 @@ def is_vowel(c):
     else:
         return False
 
-ad = "Desirable unfurnished flat in quiet residential area"
+ad = str(input('Enter the real estate ad: '))
+# ad = "Desirable unfurnished flat in quiet residential area"
 print (de_vowel(ad))
