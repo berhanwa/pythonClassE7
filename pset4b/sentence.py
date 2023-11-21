@@ -1,5 +1,6 @@
 def sentence_type (input):
-input = "This is a sentence."
+    for i in input:
+        if 
 
 
 def vowel_count(sentence):
@@ -12,5 +13,5 @@ def vowel_count(sentence):
 def main():
 
 
-
+input = "This is a sentence."
 print(f"Your entry has {vowel_count(sentence)} vowels in it")
