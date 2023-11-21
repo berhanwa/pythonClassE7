@@ -1,5 +1,5 @@
-def sentence_type (a_string):
-    # lorem
+def sentence_type (input):
+input = "This is a sentence."
 
 
 def main():
