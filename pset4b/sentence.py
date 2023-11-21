@@ -1,7 +1,4 @@
-# The user is asked to enter something, which gets passed into the sentence_type function below
-entry = str(input('Write something: '))
-
-# Here, the if statements go through each option of what the parameter's last value is, and has the respective option returned
+# The if statements go through each option of what the parameter's last value is, and has the respective option returned
 def sentence_type(entry):
     # for i in range(len(input)):
     if entry[- 1] == ".":
@@ -14,7 +11,10 @@ def sentence_type(entry):
         return "bad ending"
 
 
-# In the main program, the sentence_type function's results get printed out
+# In the main program, the sentence_type function's results get printed out in a few examples
+# The user is asked to enter something, which gets passed into the sentence_type function below
 def main():
+    # entry = str(input('Write something: '))
+    entry = str(input('Example of response to a sentence.'))
     print(sentence_type(entry))
 main()
