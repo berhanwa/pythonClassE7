@@ -5,8 +5,11 @@ def create_ordinal_form(n):
         return n + "nd"
     elif n[-1] == "3":
         return n + "rd"
+    elif n[0] == "1":
+        return n + "th"
     else:
         return n + "th"
+    
 
 # ad = str(input('Enter the real estate ad: '))
 def main():
