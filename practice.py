@@ -151,6 +151,6 @@ names.append("Ben")
 names.pop(3)
 names.append("Apekshya")
 names.remove("Apekshya")
-
+names[-1]
 
 print(names)
