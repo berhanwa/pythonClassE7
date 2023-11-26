@@ -158,6 +158,6 @@
 
 foobar = [1, 2, 3]
 
-# foobar = [5 for _ in foobar]
+foobar = [5 for _ in foobar]
 
 print(foobar)
