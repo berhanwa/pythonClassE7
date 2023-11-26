@@ -143,4 +143,8 @@
 # print ( x[x[1]] )
 
 
-x = [5, 3, 5, 7, 5, "banana"]
+names = ["Alyssa"]
+
+names.insert(1, "Arpit")
+
+print(names)
