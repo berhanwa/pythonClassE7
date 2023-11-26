@@ -159,9 +159,7 @@
 foobar = [1, 2, 3, 4, 5]
 
 # foobar = [5 for _ in foobar]
-
-# foobar = [x + 1 for x in foobar]
-# foobar = [foobar[0] + x + 1 for x in foobar]
+# foobar = [foobar[-1]] + foobar[:-1]
 foobar = [foobar[-1]] + foobar[:-1]
 
 print(foobar)
