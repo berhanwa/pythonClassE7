@@ -156,11 +156,13 @@
 # print(names)
 
 
-foobar = [1, 2, 3, 4, 5]
+# foobar = [1, 2, 3, 4, 5]
+
+foobar = [-5, -4, -3, -2, -1]
 
 # foobar = [5 for _ in foobar]
 # foobar = [foobar[-1]] + foobar[:-1]
 # foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
-foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
+foobar = [abs(x) for x in foobar]
 
 print(foobar)
