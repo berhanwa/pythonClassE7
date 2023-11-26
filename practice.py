@@ -149,5 +149,6 @@ names.insert(1, "Arpit")
 names.insert(0, "Apekshya")
 names.append("Ben")
 names.pop(3)
+names.append("Apekshya")
 
 print(names)
