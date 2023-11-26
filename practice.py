@@ -150,5 +150,6 @@ names.insert(0, "Apekshya")
 names.append("Ben")
 names.pop(3)
 names.append("Apekshya")
+names.remove("Apekshya")
 
 print(names)
