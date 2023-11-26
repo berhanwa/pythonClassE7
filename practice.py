@@ -156,8 +156,9 @@
 # print(names)
 
 
-foobar = [1, 2, 3]
+foobar = [1, 2, 3, 4, 5]
 
-foobar = [5 for _ in foobar]
+# foobar = [5 for _ in foobar]
+foobar = [foobar[-1] + foobar[:-1]]
 
 print(foobar)
