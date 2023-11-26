@@ -143,14 +143,21 @@
 # print ( x[x[1]] )
 
 
-names = ["Alyssa"]
+# names = ["Alyssa"]
 
-names.insert(1, "Arpit")
-names.insert(0, "Apekshya")
-names.append("Ben")
-names.pop(3)
-names.append("Apekshya")
-names.remove("Apekshya")
-names[-1] = "Stephen"
+# names.insert(1, "Arpit")
+# names.insert(0, "Apekshya")
+# names.append("Ben")
+# names.pop(3)
+# names.append("Apekshya")
+# names.remove("Apekshya")
+# names[-1] = "Stephen"
 
-print(names)
+# print(names)
+
+
+foobar = [x, y, z]
+
+foobar[] = 5
+
+print(foobar)
