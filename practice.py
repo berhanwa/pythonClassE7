@@ -160,6 +160,7 @@ foobar = [1, 2, 3, 4, 5]
 
 # foobar = [5 for _ in foobar]
 # foobar = [foobar[-1]] + foobar[:-1]
+# foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
 foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
 
 print(foobar)
