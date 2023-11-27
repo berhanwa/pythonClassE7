@@ -164,6 +164,6 @@ foobar = [1, 2, 3, 4, 5]
 # foobar = [foobar[-1]] + foobar[:-1]
 # foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
 # foobar = [abs(x) for x in foobar]
-foobar = [abs(x) for x in foobar]
+foobar = [x for x in foobar if index(x % 2 == 1)]
 
 print(foobar)
