@@ -69,7 +69,6 @@
 # weight = int(input('State your weight:'))
 
 
-
 # def main ():
 #     is_a_smoker = input('Do you smoke? ')
 #     is_male = input('Are you male? ')
@@ -87,8 +86,6 @@
 #     print ('Marry me!')
 # else:
 #     print ('Get Lost!')
-
-
 
 
 # def main():
@@ -156,7 +153,7 @@
 # print(names)
 
 
-foobar = [1, 2, 3, 4, 5]
+foobar = [1, 2, 3, 4, 5, 6]
 
 # foobar = [-5, -4, -3, -2, -1]
 
@@ -164,6 +161,6 @@ foobar = [1, 2, 3, 4, 5]
 # foobar = [foobar[-1]] + foobar[:-1]
 # foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
 # foobar = [abs(x) for x in foobar]
-foobar = [x for index in foobar if index % 2 == 1]
+foobar = [x for index, x in enumerate(foobar) if index % 2 == 1]
 
 print(foobar)
