@@ -1,4 +1,5 @@
-# Defined the function to go through a for loop of the paramenter sentence, where the count increments every time a vowel is found inside the loop
+# After initializing the count list with the five 0s to represent each vowel, I defined the function to go through a for loop of the string paramenter sentence,
+# where the count increments every time a vowel is found inside the loop with respect to the index position of each vowel
 def vowel_count(sentence):
     count = [0, 0, 0, 0, 0]
     for letter in sentence:
@@ -16,10 +17,8 @@ def vowel_count(sentence):
 
     return count
 
-# Specified what vowels and sentence are below, where users enter a sentence
 
-
-# Printed some example sentences along with their results from the vowel_count function
+# Then printed some example sentences along with their results from the vowel_count function
 def main ():
     sentence = 'I think, therefore I am'
     print(f"{sentence}\n Your entry has the vowels 'aeiou' listed {vowel_count(sentence)} many times respectively \n")
