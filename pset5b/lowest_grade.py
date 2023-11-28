@@ -6,5 +6,5 @@ def remove_lowest(grades):
 
     return grades
 
-grades = [90, 47, 55, 88]
+grades = [23, 90, 47, 55, 88]
 print("a =", grades)
