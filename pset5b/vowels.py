@@ -1,6 +1,6 @@
 # Defined the function to go through a for loop of the paramenter sentence, where the count increments every time a vowel is found inside the loop
 def vowel_count(sentence):
-    count = 0
+    count = []
     for i in sentence:
         if i in vowels:
             count += 1
