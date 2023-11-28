@@ -12,4 +12,4 @@ def digit_check(numbers):
     return occurrences
 
 numbers = str(int(input('Please enter some numbers: ')))
-print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \n Occurrences: {digit_check(numbers)}\n")
+print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {digit_check(numbers)}\n")
