@@ -1,13 +1,12 @@
 def digit_check(numbers):
 
+    # Initialized the occurences list and multiplied by 10 since there will be 10 values inside
     occurrences = [0] * 10
 
+    # In this for loop
     for i in numbers:
         digit = int(i)
         occurrences[digit] += 1
-
-        # if numbers.index(0) == 0:
-        #     occurrences[digit] !=
 
     return occurrences
 
