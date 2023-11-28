@@ -1,5 +1,6 @@
 def remove_lowest(grades):
     # count = [0, 0, 0, 0, 0]
+    
 
-a = remove_lowest(grades)
-preint("a =", a)
+grades = [90, 47, 55, 88]
+preint("a =", grades)
