@@ -6,6 +6,8 @@ def digit_check(numbers):
         digit = int(i)
         occurrences[digit] += 1
 
+        if numbers.index()
+
     return occurrences
 
 numbers = str(input('Please enter some numbers: '))
