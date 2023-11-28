@@ -1,17 +1,19 @@
 from time import *
 import random
 
+# Initialized values as a list with elements
 values = [11,9,17,5,12]
 
 def selection_sort(values):
 
     size = len(values)
 
+    # Iterated through first loop and initialized new min values
     for i in range(0, size):
         min_val = values[i]
         min_index = i
 
-
+        # And in this second loop and initialized new min values
         for j in range(i + 1, size):
             if values[j] < min_val:
                 min_val = values[j]
