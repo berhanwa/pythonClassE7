@@ -8,6 +8,7 @@ def vowel_count(sentence):
 
 # Specified what vowels and sentence are below, where users enter a sentence
 vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+print(vowel_count(sentence))
 
 # Printed some example sentences along with their results from the vowel_count function, as per Ben's comment in the Ed discussion
 # def main ():
