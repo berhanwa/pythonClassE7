@@ -13,7 +13,7 @@ def selection_sort(values):
         min_val = values[i]
         min_index = i
 
-        # And in this second loop and initialized new min values
+        # And in this second loop, checked if there is a new min value
         for j in range(i + 1, size):
             if values[j] < min_val:
                 min_val = values[j]
@@ -25,9 +25,9 @@ def selection_sort(values):
             values[min_index] = temp_val
 
 
-        print(f"Pass {i+1}: ", min_val, " at index ", min_index)
-        print(values)
-        print()
+        # print(f"Pass {i+1}: ", min_val, " at index ", min_index)
+        # print(values)
+        # print()
 
 
 def time_sort(n):
