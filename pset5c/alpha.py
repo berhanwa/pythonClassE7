@@ -8,6 +8,6 @@ def alphabetical(words):
     for word in words:
         sorted_words.append(' '.join(sorted(word)))
 
-# Then printed some example sentences along with their results from the vowel_count function
+# Then printed the original list of words
     print(f"Original: \t", ' '.join(words))
     print(f"Aplhabetical: \t", ' '.join(sorted_words))
