@@ -20,6 +20,7 @@ def selection_sort(values):
                 min_index = j
 
         if min_index != i:
+            # Storing original min as the temp
             temp_val = values[i]
             values[i] = min_val
             values[min_index] = temp_val
@@ -31,10 +32,20 @@ def selection_sort(values):
 
 
 def time_sort(n):
+    values = []
+    # Genrerate values
+    for i in range(n):
+        values.append(randint(0, 100000))
+
     start_time = time()
     selection_sort(values)
-    # a_list.sort()
     end_time = time()
+    print(f"Running Selection Sort for {n} random integers..")
     print('Elapsed time:', end_time-start_time, 'seconds')
-print(values)
-selection_sort(values)
+    print()
+
+time_sort(1000)
+time_sort(2000)
+time_sort(4000)
+time_sort(8000)
+time_sort(18000)
