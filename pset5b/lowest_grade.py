@@ -6,6 +6,8 @@ def remove_lowest(grades):
 
     if grades == []:
         return []
+    elif len(grades) == 1:
+        return grades
 
     return grades
 
@@ -14,4 +16,8 @@ print("a =", remove_lowest(grades))
 
 
 grades = [85]
+print("a =", remove_lowest(grades))
+
+
+grades = []
 print("a =", remove_lowest(grades))
