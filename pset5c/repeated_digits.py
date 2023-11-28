@@ -13,6 +13,6 @@ def digit_check(numbers):
 
 numbers = str(int(input('Please enter some numbers: ')))
 outcome = digit_check(numbers)
-print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {''.join(map(outcome))}")
+print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {''.join(map(str, outcome))}")
 
 # print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {digit_check(numbers)}\n")
