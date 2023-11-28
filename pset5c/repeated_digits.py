@@ -6,7 +6,8 @@ def digit_check(numbers):
         digit = int(i)
         occurrences[digit] += 1
 
-        if numbers.index()
+        if numbers.index(0) == 0:
+            occurrences[digit]
 
     return occurrences
 
