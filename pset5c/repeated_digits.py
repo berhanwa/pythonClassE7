@@ -12,7 +12,7 @@ def digit_check(numbers):
 
 def main():
 
-    numbers = str(int(input('Please enter some numbers: ')))
+    numbers = (input('Please enter some numbers: '))
 
     # Specified this variable to refer to the function above, so that I can format it inside the print statement with more ease
     outcome = digit_check(numbers)
