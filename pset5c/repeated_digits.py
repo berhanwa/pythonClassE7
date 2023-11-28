@@ -10,13 +10,15 @@ def digit_check(numbers):
 
     return occurrences
 
-numbers = str(int(input('Please enter some numbers: ')))
+def main():
 
-# Specified this variable to refer to the function above, so that I can format it inside the print statement better
-outcome = digit_check(numbers)
+    numbers = str(int(input('Please enter some numbers: ')))
 
-# Used tab to get the two sets of numbers to align vertically, and \n to start a new line
-# And to print out the results of the function, I used the join and map functions to convert the elements of outcome as strings with spaces in between
-print(f"Digit: \t\t0 1 2 3 4 5 6 7 8 9 \nOccurrences: \t{' '.join(map(str, outcome))}")
+    # Specified this variable to refer to the function above, so that I can format it inside the print statement with more ease
+    outcome = digit_check(numbers)
 
+    # Used tab to get the two sets of numbers to align vertically, and \n to start a new line
+    # And to print out the results of the function, I used the join and map functions to convert the elements of outcome as strings with spaces in between
+    print(f"Digit: \t\t0 1 2 3 4 5 6 7 8 9 \nOccurrences: \t{' '.join(map(str, outcome))}")
 
+main()
