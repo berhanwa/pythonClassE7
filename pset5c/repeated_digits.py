@@ -7,7 +7,7 @@ def digit_check(numbers):
         occurrences[digit] += 1
 
         if numbers.index(0) == 0:
-            occurrences[digit]
+            occurrences[digit] !=
 
     return occurrences
 
