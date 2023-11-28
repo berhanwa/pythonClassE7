@@ -1,11 +1,13 @@
 # This problem is attempted for extra credit :)
-
 words = ['apple', 'pumpkin', 'log', 'River', 'fox', 'pond']
 
 def alphabetical(words):
 
+    sorted_words = []
+
     for word in words:
+        sorted_words.append(' '.join(sorted(word)))
 
-
-    print()
-    print(f"Original: \t0 1 2 3 4 5 6 7 8 9 \nOccurrences: \t{' '.join(map(str, outcome))}")
+# Then printed some example sentences along with their results from the vowel_count function
+    print(f"Original: \t", ' '.join(words))
+    print(f"Aplhabetical: \t", ' '.join(sorted_words))
