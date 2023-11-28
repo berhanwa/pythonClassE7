@@ -3,10 +3,11 @@ words = ['apple', 'pumpkin', 'log', 'River', 'fox', 'pond']
 
 def alphabetical(words):
 
+    # Initialized the sorted_words list
     sorted_words = []
 
     for word in words:
-        sorted_words.append(' '.join(sorted(word)))
+        sorted_words.append(''.join(sorted(word)))
 
 # Then printed the original list of words with the similar tabbed formatting I used in problem 8, and printed the same list of words in alphabetical order
     print(f"Original: \t", ' '.join(words))
