@@ -17,20 +17,17 @@ def vowel_count(sentence):
     return count
 
 # Specified what vowels and sentence are below, where users enter a sentence
-sentence = 'I think, therefore I am'
-print(vowel_count(sentence))
+
 
 # Printed some example sentences along with their results from the vowel_count function
-# def main ():
-#     sentence = str('I think, therefore I am')
-#     print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
-# main ()
+def main ():
+    sentence = 'I think, therefore I am'
+    print(f"{sentence}\n Your entry has the vowels 'aeiou' listed {vowel_count(sentence)} many times respectively \n")
 
+    sentence = 'Birds of a Feather Flock Together'
+    print(f"{sentence}\n Your entry has the vowels 'aeiou' listed {vowel_count(sentence)} many times respectively \n")
 
-#     sentence = str('Birds of a Feather Flock Together')
-#     print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
+    sentence = 'Raining Cats and Dogs'
+    print(f"{sentence}\n Your entry has the vowels 'aeiou' listed {vowel_count(sentence)} many times respectively")
 
-#     sentence = str('Raining Cats and Dogs')
-#     print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
-
-
+main ()
