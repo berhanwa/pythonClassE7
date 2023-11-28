@@ -15,6 +15,9 @@ numbers = str(int(input('Please enter some numbers: ')))
 
 # Specified this variable to refer to the function above, so that I can format it inside the print statement better
 outcome = digit_check(numbers)
-print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {' '.join(map(str, outcome))}")
 
-# print(f"Digit: 0 1 2 3 4 5 6 7 8 9 \nOccurrences: {digit_check(numbers)}\n")
+# Used tab to get the two sets of numbers to align vertically, and \n to start a new line
+# And to print out the results of the function, I used the 
+print(f"Digit: \t\t0 1 2 3 4 5 6 7 8 9 \nOccurrences: \t{' '.join(map(str, outcome))}")
+
+
