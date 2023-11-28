@@ -1,16 +1,22 @@
 # Defined the function to go through a for loop of the paramenter sentence, where the count increments every time a vowel is found inside the loop
 def vowel_count(sentence):
     count = []
-    for i in sentence:
-        if i in vowels:
-            count += 1
+    for letter in sentence:
+
+        if letter == "a" or "A":
+            count[0] += 1
+        elif letter == "e" or "E":
+            count[1] += 1
+        elif letter == "i" or "I":
+            count[2] += 1
+
     return count
 
 # Specified what vowels and sentence are below, where users enter a sentence
-vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+# vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 # print(vowel_count(sentence))
 
-# Printed some example sentences along with their results from the vowel_count function, as per Ben's comment in the Ed discussion
+# Printed some example sentences along with their results from the vowel_count function
 def main ():
     sentence = str('I think, therefore I am')
     print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
@@ -24,6 +30,3 @@ main ()
 #     print(f"\n{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
 
 
-
-# Previously just had the user input the sentence instead of listing out some example ones
-# sentence = str(input('Write something: '))
