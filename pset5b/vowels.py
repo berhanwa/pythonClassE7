@@ -1,17 +1,17 @@
 # Defined the function to go through a for loop of the paramenter sentence, where the count increments every time a vowel is found inside the loop
 def vowel_count(sentence):
-    count = []
+    count = [0, 0, 0, 0, 0]
     for letter in sentence:
 
-        if letter == "a" or "A":
+        if letter == "a" or letter == "A":
             count[0] += 1
-        elif letter == "e" or "E":
+        elif letter == "e" or letter == "E":
             count[1] += 1
-        elif letter == "i" or "I":
+        elif letter == "i" or letter == "I":
             count[2] += 1
-        elif letter == "o" or "O":
+        elif letter == "o" or letter == "O":
             count[3] += 1
-        elif letter == "u" or "U":
+        elif letter == "u" or letter == "U":
             count[4] += 1
 
     return count
