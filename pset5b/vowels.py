@@ -9,18 +9,22 @@ def vowel_count(sentence):
             count[1] += 1
         elif letter == "i" or "I":
             count[2] += 1
+        elif letter == "o" or "O":
+            count[3] += 1
+        elif letter == "u" or "U":
+            count[4] += 1
 
     return count
 
 # Specified what vowels and sentence are below, where users enter a sentence
-# vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-# print(vowel_count(sentence))
+sentence = 'I think, therefore I am'
+print(vowel_count(sentence))
 
 # Printed some example sentences along with their results from the vowel_count function
-def main ():
-    sentence = str('I think, therefore I am')
-    print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
-main ()
+# def main ():
+#     sentence = str('I think, therefore I am')
+#     print(f"{sentence}\n Your entry has {vowel_count(sentence)} vowels in it")
+# main ()
 
 
 #     sentence = str('Birds of a Feather Flock Together')
