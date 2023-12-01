@@ -171,10 +171,10 @@
 # y['a'] = 4
 # print(y['a'])
 
-y = { 'a' : 6, 'b' : 1, 'c' : 7}
+# y = { 'a' : 6, 'b' : 1, 'c' : 7}
 # y.pop('b')
 # y.pop('d')
 # for foo in y:
 #     print(foo)
 # print('a' in y)
-print(6 in y)
+# print(6 in y)
