@@ -180,6 +180,7 @@
 # print(6 in y)
 
 snacks = [ 'apple', 'orange', 'chocolate' ]
-mystery = [ x + 's' for x in snacks ]
+# mystery = [ x + 's' for x in snacks ]
+mystery = { x : len(x) for x in snacks }
 
 print(mystery)
