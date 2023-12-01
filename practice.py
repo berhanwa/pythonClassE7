@@ -176,4 +176,5 @@ y = { 'a' : 6, 'b' : 1, 'c' : 7}
 # y.pop('d')
 # for foo in y:
 #     print(foo)
-print()
+# print('a' in y)
+print(6 in y)
