@@ -172,4 +172,5 @@
 # print(y['a'])
 
 y = { 'a' : 6, 'b' : 1, 'c' : 7}
-y.pop()
+y.pop('b')
+print(y)
