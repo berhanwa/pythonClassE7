@@ -153,7 +153,7 @@
 # print(names)
 
 
-foobar = [1, 2, 3, 4, 5, 6]
+# foobar = [1, 2, 3, 4, 5, 6]
 
 # foobar = [-5, -4, -3, -2, -1]
 
@@ -161,6 +161,8 @@ foobar = [1, 2, 3, 4, 5, 6]
 # foobar = [foobar[-1]] + foobar[:-1]
 # foobar = [foobar[-1]] + foobar[1:-1] + [foobar[0]]
 # foobar = [abs(x) for x in foobar]
-foobar = [x for index, x in enumerate(foobar) if index % 2 == 1]
+# foobar = [x for index, x in enumerate(foobar) if index % 2 == 1]
 
-print(foobar)
+# print(foobar)
+
+
