@@ -35,7 +35,9 @@ def total_homeworks2(course_list):
     # Initialized this variable to set the stage
     total_work = 0
 
-    course_list[i]['num_homeworks'] for i in course_list:
+    [course_list[i]['num_homeworks'] for i in course_list]
+
+
 
 def main():
     print(total_homeworks(courses))
