@@ -26,10 +26,16 @@ def total_homeworks(course_list):
 
         # The 'num_homeworks' keys' values are collected and then added on to total_work variable, which lets us know how much homework there is to do
         total_work += course_list[i]['num_homeworks']
-        
+
     return total_work
 
 
+def total_homeworks2(course_list):
+
+    # Initialized this variable to set the stage
+    total_work = 0
+
+    course_list[i]['num_homeworks'] for i in course_list:
 
 def main():
     print(total_homeworks(courses))
