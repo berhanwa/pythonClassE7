@@ -17,4 +17,6 @@ courses = {
     }
 }
 
-def 
+def total_homeworks(course):
+    for i in course:
+
