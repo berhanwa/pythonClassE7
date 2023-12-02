@@ -18,9 +18,12 @@ courses = {
 
 def total_homeworks(course_list):
 
+    total_work = 0
     for i in course_list:
-        total_work += course_list[i]
+        total_work += course_list[i]['num_homeworks']
     return total_work
+
+
 
 def main():
     print(total_homeworks(courses))
