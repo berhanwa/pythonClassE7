@@ -16,6 +16,12 @@ courses = {
     }
 }
 
-def total_homeworks(course):
-    for i in course:
+def total_homeworks(course_list):
 
+    for i in course_list:
+        total_work += course_list[i]
+    return total_work
+
+def main():
+    print(total_homeworks(courses))
+main()
