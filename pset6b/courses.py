@@ -2,8 +2,7 @@ courses = {
     "CSCI-E7" :
     { "full_name" : "Intro to CS with Python",
         "instructors" : [ "Henry", "Foobar" ],
-        "TAs" : ["Alyssa", "Apekshya", "Ben",
-        "Arpit", "Stephen"],
+        "TAs" : ["Alyssa", "Apekshya", "Ben","Arpit", "Stephen"],
         "num_homeworks" : 7,
         "num_exams" : 2
     },
