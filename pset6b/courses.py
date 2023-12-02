@@ -32,13 +32,17 @@ def total_homeworks(course_list):
 
 def total_homeworks2(course_list):
 
-    # Initialized this variable to set the stage
-    total_work = 0
+    # Created a new list using list comprehension that finds the number of 'num_homeworks' by iterating through course_list
+    newlist = [course_list[i]['num_homeworks'] for i in course_list]
 
-    [course_list[i]['num_homeworks'] for i in course_list]
+    # Then used the sum function to add newlist up and assign them to the total_work variable
+    total_work = sum(newlist)
+
+    return total_work
 
 
-
+# Results of both functions shown below
 def main():
     print(total_homeworks(courses))
+    print(total_homeworks2(courses))
 main()
