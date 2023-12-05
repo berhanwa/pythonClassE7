@@ -13,4 +13,5 @@ def main():
     infile.close()
     outfile.close()
 
-    print("The task is complete")
+main()
+print("The task is complete.")
