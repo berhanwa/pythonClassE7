@@ -4,7 +4,7 @@ def main():
 
     # argv
     # result_sum = sum([for _ in argv])
-    [int(arg) for arg in argv[1:]]
+    [int(argv) for argv in argv[1:]]
     result_sum = [sum(n) for n in argv]
 
     # for _ in argv:
