@@ -20,12 +20,17 @@ def word_length_histogram(text):
             else:
                 word_histogram[len(word)] = 1
 
+    return word_histogram
+
 
 def print_report(hist):
 
     with open('romeo_and_juliet_data.txt', 'r') as f:
         input_text = f.readlines()
-    word_dict = word_length_histogram(input)
+    word_dict = word_length_histogram(input_text)
+    total_words = sum(list(word_dict.values()))
 
+    for len_word in word_dicts:
+        print('The proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
 
 def main():
