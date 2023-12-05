@@ -1,4 +1,7 @@
+# text = ["blah"]
 
+with open('romeo_and_juliet_data.txt', 'r') as f:
+    input_text = f.readlines()
 
 def word_length_histogram(text):
     word_histogram = {}
@@ -22,21 +25,22 @@ def word_length_histogram(text):
 
     return word_histogram
 
+print(word_length_histogram(text))
 
-def print_report(word_dict):
+# def print_report(word_dict):
 
-    total_words = sum(word_histogram.values())
+#     total_words = sum(word_histogram.values())
 
-    for len_word in word_histogram:
-        print('Proportion of ', len_word, '-letter words is ', word_histogram[len_word], word_histogram[len_word]/total_words)
+#     for len_word in word_histogram:
+#         print('Proportion of ', len_word, '-letter words is ', word_histogram[len_word], word_histogram[len_word]/total_words)
 
 
-def main():
+# def main():
 
-    with open('romeo_and_juliet_data.txt', 'r') as f:
-        input_text = f.readlines()
+#     with open('romeo_and_juliet_data.txt', 'r') as f:
+#         input_text = f.readlines()
 
-    word_dict = word_length_histogram(input_text)
-    print(print_report(word_dict))
+#     word_dict = word_length_histogram(input_text)
+#     print(print_report(word_dict))
 
-main()
+# main()
