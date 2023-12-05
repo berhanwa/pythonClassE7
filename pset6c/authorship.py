@@ -1,4 +1,10 @@
 jk
 
-def word_lengthe_history(text):
-    word_hist
+def word_length_histogram(text):
+    word_histogram = {}
+
+    
+
+
+def print_report(hist):
+
