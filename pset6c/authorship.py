@@ -26,7 +26,7 @@ def print_report(word_dict):
 
     total_words = sum(word_dict.values())
 
-    # Iterates through word_dict (the dictionary) and prints out the results of the 
+    # Iterates through word_dict (the dictionary) and prints out the results of the words and how many times they appear depending on their length
     for len_word in sorted(word_dict):
        print(f'Proportion of {len_word}-letter words: {(word_dict[len_word]/total_words)*100:.2f}% ({word_dict[len_word]}) ')
 
