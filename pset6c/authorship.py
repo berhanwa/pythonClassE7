@@ -21,7 +21,7 @@ def word_length_histogram(input_text):
                 word_histogram[len(word)] = 1
 
     return word_histogram
-
+sorted(word_histogram)
 
 def print_report(word_dict):
 
