@@ -20,4 +20,9 @@ def simulate_birthdays(simulations, students):
 
 def main():
      if len(argv) != 3:
-         print("Please provide the number of simulations to run and the number of )
+         print("Please provide the number of simulations to run and the number of students in the class: ")
+    else:
+        simulations = int(argv[1])
+        students = int(argv[2])
+
+    
