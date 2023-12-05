@@ -9,6 +9,9 @@ def word_length_histogram(text):
             word = word.replace("'", "")
 
             if len(word) in list(word_hist.keys()):
+                word_histogram(len(word)) += 1
+
+            else:
                 
 
 
