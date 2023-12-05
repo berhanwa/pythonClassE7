@@ -2,6 +2,7 @@
 keyword_name = input("Enter a keyword to search for: ")
 input_file_name = input("Enter a file to search it in: ")
 
+# Accesses the file that the user provided the name of
 f = open (input_file_name, "r")
 
 # Initialized the line and number_of_line variables
