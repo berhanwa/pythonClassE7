@@ -14,7 +14,7 @@ def word_length_histogram(text):
             word = word.replace("'", "")
 
             # If the length is a key, the length of the dictionary is increased by one
-            if len(word) in list(word_hist.keys()):
+            if len(word) in word_hist.keys():
                 word_histogram[len(word)] += 1
 
             else:
@@ -23,13 +23,13 @@ def word_length_histogram(text):
     return word_histogram
 
 
-def print_report(hist):
+def print_report(word_histogram):
 
     with open('romeo_and_juliet_data.txt', 'r') as f:
         input_text = f.readlines()
 
     word_dict = word_length_histogram(input_text)
-    
+
     total_words = sum(list(word_dict.values()))
 
     for len_word in word_dicts:
