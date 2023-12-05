@@ -1,5 +1,5 @@
-input_file_name = input("Enter a filename to read: ")
-output_file_name = input("Enter a filename to send the previous file to: ")
+input_file_name = input("Enter an input filename to read: ")
+output_file_name = input("Enter an output filename to create: ")
 
 def main():
 
@@ -12,3 +12,5 @@ def main():
 
     infile.close()
     outfile.close()
+
+    print("The task is complete")
