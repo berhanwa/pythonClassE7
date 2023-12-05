@@ -1,3 +1,5 @@
+##### The random.txt file is what I used to test this program with #####
+
 keyword_name = input("Enter a keyword to search for: ")
 input_file_name = input("Enter a file to search it in: ")
 
