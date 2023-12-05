@@ -4,7 +4,7 @@ from random import randint
 def find_matches(birthdays):
     return len(birthdays) != len(set(birthdays))
 
-Here, the function iterates through the days of the year and 
+# Here, the function iterates through the days of the year and if birthday matches are found, the matches variable gets incremented
 def simulate_birthdays(simulations, students):
 
     # Initialized the matches
@@ -17,3 +17,7 @@ def simulate_birthdays(simulations, students):
             matches += 1
 
     return matches
+
+def main():
+     if len(argv) != 3:
+         print("Please provide the number of simulations to run and the number of )
