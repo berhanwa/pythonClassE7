@@ -11,3 +11,6 @@ def main():
 
     for line in infile:
         outfile.write(line)
+
+    infile.close()
+    outfile.close()
