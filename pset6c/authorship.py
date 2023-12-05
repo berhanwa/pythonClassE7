@@ -33,4 +33,4 @@ def print_report(hist):
     for len_word in word_dicts:
         print('The proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
 
-def main():
+# def main():
