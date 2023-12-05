@@ -40,9 +40,9 @@ print_report(word_dict)
 
 def main():
 
-#     # with open('romeo_and_juliet_data.txt', 'r') as f:
-#     #     input_text = f.readlines()
+    # with open('romeo_and_juliet_data.txt', 'r') as f:
+    #     input_text = f.readlines()
 
-#     print(print_report(word_dict))
+    print(print_report(word_dict))
 
-# main()
+main()
