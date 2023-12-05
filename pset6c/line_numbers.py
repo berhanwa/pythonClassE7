@@ -6,15 +6,11 @@ def add_line_numbers(input_file, output_file):
 
     with open(output_file, 'w') as file:
         lines = file.readlines()
-
-# input_file_name = input("Enter an input filename to read: ")
-# output_file_name = input("Enter an output filename to create: ")
+            file.write(f"/*{line_num}*/ {lines[line_num]}")
 
 def main():
 
-    # Accesses the file that the user provided the name of
-    # infile = open (input_file_name, "r")
-    # outfile = open (output_file_name, "w")
+
 
     line_num = 0
 
@@ -30,3 +26,11 @@ def main():
 main()
 
 print("The task is complete.")
+
+
+    # Accesses the file that the user provided the name of
+    # infile = open (input_file_name, "r")
+    # outfile = open (output_file_name, "w")
+
+# input_file_name = input("Enter an input filename to read: ")
+# output_file_name = input("Enter an output filename to create: ")
