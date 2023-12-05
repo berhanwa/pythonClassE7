@@ -1,3 +1,12 @@
+from sys import argv
+
+def add_line_numbers(input_file, output_file):
+    with open(input_file, 'r') as file:
+        lines = file.readlines()
+
+    with open(output_file, 'w') as file:
+        lines = file.readlines()
+
 input_file_name = input("Enter an input filename to read: ")
 output_file_name = input("Enter an output filename to create: ")
 
