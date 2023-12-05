@@ -25,4 +25,6 @@ def main():
         simulations = int(argv[1])
         students = int(argv[2])
 
-    
+        matches = simulate_birthdays(simulations, students)
+
+        print(f"After {simulations} simulations")
