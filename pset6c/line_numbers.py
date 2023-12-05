@@ -9,9 +9,12 @@ def add_line_numbers(input_file, output_file):
             file.write(f"/*{line_num}*/ {lines[line_num]}")
 
 def main():
+    if len(argv) == 3:
+        input_file = argv[1]
+        output_file = argv[2]
 
-
-
+    else:
+        
     line_num = 0
 
     for line in infile:
