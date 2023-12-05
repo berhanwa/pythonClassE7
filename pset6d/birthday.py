@@ -28,3 +28,5 @@ def main():
         matches = simulate_birthdays(simulations, students)
 
         print(f"After {simulations} simulations")
+        print(f"With {students} students")
+        print(f"there were {matches} simulations with at least one match")
