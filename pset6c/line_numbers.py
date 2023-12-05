@@ -12,7 +12,7 @@ def main():
     for line in infile:
         # outfile.write(line)
         line_num += 1
-        outfile.write(f"/*{line_num}*/ {line}\n", file=outfile)
+        outfile.write(f"/*{line_num}*/ {line}\n")
         # outfile.write("/*"line_num"*/" line"\n", file=outfile)
     infile.close()
     outfile.close()
