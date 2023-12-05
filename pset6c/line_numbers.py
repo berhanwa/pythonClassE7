@@ -9,7 +9,7 @@ def add_line_numbers(input_file, output_file):
         for line_num in range(len(lines)):
             file.write(f"/*{line_num}*/ {lines[line_num]}")
 
-# Here, ensured that three arguments are passed in the command line and if not, the program prompts users to 
+# Here, ensured that three arguments are passed in the command line and if not, the program prompts users to enter the files in order to proceed
 def main():
     if len(argv) == 3:
         input_file = argv[1]
@@ -22,14 +22,6 @@ def main():
     add_line_numbers(input_file, output_file)
     print("The task is complete.")
 
-
-    #     # outfile.write(line)
-    #     line_num += 1
-    #     updated_lines = f"/*{line_num}*/ {line}\n"
-    #     outfile.write(updated_lines)
-    #     # outfile.write("/*"line_num"*/" line"\n", file=outfile)
-    # infile.close()
-    # outfile.close()
 
 main()
 
