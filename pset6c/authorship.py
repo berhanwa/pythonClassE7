@@ -23,3 +23,9 @@ def word_length_histogram(text):
 
 def print_report(hist):
 
+    with open('romeo_and_juliet_data.txt', 'r') as f:
+        input_text = f.readlines()
+    word_dict = word_length_histogram(input)
+
+
+def main():
