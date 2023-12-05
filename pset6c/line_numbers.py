@@ -13,7 +13,7 @@ def main():
         # outfile.write(line)
         line_num += 1
         updated_lines = f"/*{line_num}*/ {line}\n"
-        outfile.write(updated_lines, \n)
+        outfile.write(updated_lines, end='')
         # outfile.write("/*"line_num"*/" line"\n", file=outfile)
     infile.close()
     outfile.close()
