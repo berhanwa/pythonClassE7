@@ -1,3 +1,5 @@
+##### The lorem.txt file is what I used to test as the input file and I created new_lorem.txt as the output result of this program #####
+
 from sys import argv
 
 # Created this function to open the input file and create the output file with the formatting required
@@ -24,4 +26,3 @@ def main():
 
 
 main()
-
