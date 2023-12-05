@@ -19,8 +19,8 @@ def simulate_birthdays(simulations, students):
     return matches
 
 def main():
-     if len(argv) != 3:
-         print("Please provide the number of simulations to run and the number of students in the class: ")
+    if len(argv) != 3:
+        print("Please provide the number of simulations to run and the number of students in the class: ")
     else:
         simulations = int(argv[1])
         students = int(argv[2])
@@ -30,3 +30,5 @@ def main():
         print(f"After {simulations} simulations")
         print(f"With {students} students")
         print(f"there were {matches} simulations with at least one match")
+
+main()
