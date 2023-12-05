@@ -20,7 +20,7 @@ def simulate_birthdays(simulations, students):
 
     return matches
 
-In the main function, 
+# In the main function, ensured that the values for simulations and students are provided in the command line and then prints out the results from the previous functions
 def main():
     if len(argv) != 3:
         print("Please provide the number of simulations to run and the number of students in the class: ")
