@@ -38,11 +38,11 @@ def print_report(word_dict):
         print('Proportion of ', len_word, '-letter words is ', word_histogram[len_word], word_histogram[len_word]/total_words)
 
 
-def main():
+# def main():
 
-    # with open('romeo_and_juliet_data.txt', 'r') as f:
-    #     input_text = f.readlines()
+#     # with open('romeo_and_juliet_data.txt', 'r') as f:
+#     #     input_text = f.readlines()
 
-    print(print_report(word_dict))
+#     print(print_report(word_dict))
 
-main()
+# main()
