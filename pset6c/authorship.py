@@ -9,7 +9,7 @@ def word_length_histogram(text):
         # Used the split() list method to split the line_words string into a list with each word being a list item
         line_words = line.split()
 
-        # In this nested loop, 
+        # In this nested loop, quotes get removed and checks if the length of a word is an existing key in the dictionary
         for word in line_words:
             word = word.replace("'", "")
 
