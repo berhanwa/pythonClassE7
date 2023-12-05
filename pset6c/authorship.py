@@ -36,15 +36,15 @@ def print_report(word_dict):
 
 print_report(word_dict)
 
+
 def main():
 
-    # with open('romeo_and_juliet_data.txt', 'r') as f:
-    #     input_text = f.readlines()
-
+    # Opens the file and then saves the external text in this program as input_text
     with open('romeo_and_juliet_data.txt', 'r') as f:
         input_text = f.readlines()
 
-    # print(print_report(word_dict))
+    # Opens the file and then saves the external text in this program as input_text
+    word_dict = word_length_histogram(input_text)
 
     print(word_length_histogram(input_text))
 
