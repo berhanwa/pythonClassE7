@@ -1,0 +1,6 @@
+/*0*/ Lorem ipsum
+/*1*/ dolor sit amet,
+/*2*/ consectetur
+/*3*/ adipiscing elit,
+/*4*/ ed do eiusmod
+/*5*/ tempor

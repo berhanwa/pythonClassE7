@@ -1,5 +1,6 @@
 from sys import argv
 
+# Created this function to open the input file and create the output file
 def add_line_numbers(input_file, output_file):
     with open(input_file, 'r') as file:
         lines = file.readlines()
@@ -20,8 +21,6 @@ def main():
     add_line_numbers(input_file, output_file)
     print("The task is complete.")
 
-    # line_num = 0
-
     # for line in infile:
     #     # outfile.write(line)
     #     line_num += 1
@@ -32,11 +31,4 @@ def main():
     # outfile.close()
 
 main()
-
-# print("The task is complete.")
-
-
-    # Accesses the file that the user provided the name of
-    # infile = open (input_file_name, "r")
-    # outfile = open (output_file_name, "w")
 
