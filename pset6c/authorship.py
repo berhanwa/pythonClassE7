@@ -13,6 +13,7 @@ def word_length_histogram(text):
         for word in line_words:
             word = word.replace("'", "")
 
+            # Iterated through each element inside text
             if len(word) in list(word_hist.keys()):
                 word_histogram(len(word)) += 1
 
