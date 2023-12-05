@@ -2,9 +2,9 @@ from sys import argv
 
 def main():
 
-    argv
+    # argv
     # result_sum = sum([for _ in argv])
-
+    [int(arg) for arg in argv[1:]]
     result_sum = [sum(n) for n in argv]
 
     # for _ in argv:
