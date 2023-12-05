@@ -1,7 +1,8 @@
 from sys import argv
 
 def main():
-    argv = []
+    
+    int(argv)
 
     for _ in argv:
         print(sum(argv))
