@@ -37,7 +37,7 @@ def main():
         input_text = f.readlines()
 
     word_dict = word_length_histogram(input_text)
-    print(print_report(word_histogram))
+    # print(print_report(word_histogram))
 
 main()
 
