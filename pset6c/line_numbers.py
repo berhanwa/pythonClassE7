@@ -7,7 +7,7 @@ def main():
 
     # Accesses the file that the user provided the name of
     infile = open (input_file_name, "r")
-    outfile = open (input_file_name, "w")
+    outfile = open (output_file_name, "w")
 
     for line in infile:
         outfile.write(line)
