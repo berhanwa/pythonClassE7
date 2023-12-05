@@ -5,7 +5,7 @@ def add_line_numbers(input_file, output_file):
         lines = file.readlines()
 
     with open(output_file, 'w') as file:
-        lines = file.readlines()
+        for line_num in range(len(lines)):
             file.write(f"/*{line_num}*/ {lines[line_num]}")
 
 def main():
@@ -33,7 +33,7 @@ def main():
 
 main()
 
-print("The task is complete.")
+# print("The task is complete.")
 
 
     # Accesses the file that the user provided the name of
