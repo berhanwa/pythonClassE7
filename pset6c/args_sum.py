@@ -8,6 +8,6 @@ def main():
     # And then used a second variable that is responsible for finding the sum of the values of from the ints variable
     result_sum = sum(ints)
     # for _ in argv:
-    print(result_sum)
+    print(f'The sum of the args is: {result_sum}')
 
 main()
