@@ -15,10 +15,10 @@ def word_length_histogram(text):
 
             # If the length is a key, the length of the dictionary is increased by one
             if len(word) in list(word_hist.keys()):
-                word_histogram(len(word)) += 1
+                word_histogram[len(word)] += 1
 
             else:
-                word_histogram(len(word)) = 1
+                word_histogram[len(word)] = 1
 
 
 def print_report(hist):
