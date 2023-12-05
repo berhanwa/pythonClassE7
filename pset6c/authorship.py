@@ -28,7 +28,7 @@ def print_report(word_histogram):
     total_words = sum(word_histogram.values())
 
     for len_word in word_histogram:
-        print('Proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
+        print('Proportion of ', len_word, '-letter words is ', word_histogram(len_word), word_histogram(len_word)/total_words)
 
 
 def main():
@@ -37,7 +37,7 @@ def main():
         input_text = f.readlines()
 
     word_dict = word_length_histogram(input_text)
-    print_report(word_histogram)
+    print(print_report(word_histogram))
 
 main()
 
