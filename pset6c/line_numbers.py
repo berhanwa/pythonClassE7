@@ -7,9 +7,12 @@ def main():
     infile = open (input_file_name, "r")
     outfile = open (output_file_name, "w")
 
+    line_num = 0
+
     for line in infile:
         outfile.write(line)
-        print(f'The sum of the args is: {result_sum}')
+        line_num += 1
+        print(f'/*{line_num}*/ {line}')
 
     infile.close()
     outfile.close()
