@@ -1,6 +1,0 @@
-/*{line_num}*/ {line}
-/*{line_num}*/ {line}
-/*{line_num}*/ {line}
-/*{line_num}*/ {line}
-/*{line_num}*/ {line}
-/*{line_num}*/ {line}
