@@ -28,7 +28,7 @@ def print_report(word_dict):
     total_words = sum(word_dict.values())
 
     for len_word in word_dict:
-       print(f'Proportion of {len_word}-letter words: 100*{(word_dict[len_word]/total_words)*100:.4f} ({word_dict[len_word]}) ')
+       print(f'Proportion of {len_word}-letter words: {(word_dict[len_word]/total_words)*100:.2f} ({word_dict[len_word]}) ')
 
 
 def main():
