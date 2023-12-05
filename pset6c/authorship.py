@@ -32,7 +32,7 @@ def print_report(word_histogram):
 
     total_words = sum(list(word_dict.values()))
 
-    for len_word in word_dicts:
+    for len_word in word_dict:
         print('Proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
 
 # def main():
