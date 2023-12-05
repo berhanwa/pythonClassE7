@@ -8,7 +8,7 @@ line = f.readline()
 
 while len(line) != 0:
     if keyword in line:
-        print (line):
+        print (line, end='')
     # else:
 
 
