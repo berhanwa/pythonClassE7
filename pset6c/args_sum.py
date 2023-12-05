@@ -3,7 +3,9 @@ from sys import argv
 def main():
 
     argv
-    result_sum = sum([for _ in argv])
+    # result_sum = sum([for _ in argv])
+
+    result_sum = [sum(n) for n in argv]
 
     # for _ in argv:
     print(result_sum)
