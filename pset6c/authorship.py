@@ -1,7 +1,6 @@
-# text = ["blah"]
-
 def word_length_histogram(input_text):
 
+    # Initialized the dictionary
     word_histogram = {}
 
     # Iterated through each element inside text
