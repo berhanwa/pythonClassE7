@@ -1,6 +1,6 @@
 
-keyword_name = input("Enter a keyword to search for")
-input_file_name = input("Enter a python file to search it in")
+keyword_name = input("Enter a keyword to search for: ")
+input_file_name = input("Enter a python file to search it in: ")
 
 f = open (input_file_name, "r")
 
