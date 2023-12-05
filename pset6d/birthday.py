@@ -14,10 +14,10 @@ def simulate_birthdays(simulations, students):
 
     for sim in range(simulations):
 
+        # Created a list of birthdays using list comprehension
         birthdays = [randint(1, 365) for student in range(students)]
         if find_matches(birthdays):
             matches += 1
-
     return matches
 
 # In the main function, ensured that the values for simulations and students are provided in the command line and then prints out the results from the previous functions
