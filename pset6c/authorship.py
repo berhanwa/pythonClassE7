@@ -25,14 +25,19 @@ def word_length_histogram(text):
 
 def print_report(word_histogram):
 
+    total_words = sum(word_histogram.values())
+
+    for len_word in word_histogram:
+        print('Proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
+
+
+def main():
+
     with open('romeo_and_juliet_data.txt', 'r') as f:
         input_text = f.readlines()
 
     word_dict = word_length_histogram(input_text)
+    print_report(word_histogram)
 
-    total_words = sum(list(word_dict.values()))
+main()
 
-    for len_word in word_dict:
-        print('Proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
-
-# def main():
