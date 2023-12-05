@@ -7,7 +7,7 @@ f = open (input_file_name, "r")
 line = f.readline()
 
 while len(line) != 0:
-    if keyword in line:
+    if keyword_name in line:
         print (line, end='')
     # else:
 
