@@ -10,9 +10,9 @@ def main():
     line_num = 0
 
     for line in infile:
-        outfile.write(line)
+        # outfile.write(line)
         line_num += 1
-        print(f'/*{line_num}*/ {line}')
+        outfile.write(f'/*{line_num}*/ {line}')
 
     infile.close()
     outfile.close()
