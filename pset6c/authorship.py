@@ -6,7 +6,10 @@ def word_length_histogram(text):
     for line in text:
         line_words = line.split()
         for word in line_words:
-            word = word.replace
+            word = word.replace("'", "")
+
+            if len(word) in list(word_hist.keys()):
+                
 
 
 def print_report(hist):
