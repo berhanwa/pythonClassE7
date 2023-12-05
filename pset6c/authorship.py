@@ -40,4 +40,3 @@ def main():
     print(print_report(word_dict))
 
 main()
-
