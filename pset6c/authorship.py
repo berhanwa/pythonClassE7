@@ -43,7 +43,7 @@ def main():
     with open('romeo_and_juliet_data.txt', 'r') as f:
         input_text = f.readlines()
 
-    # Opens the file and then saves the external text in this program as input_text
+    # Generates the word_length_histogram from the text data
     word_dict = word_length_histogram(input_text)
 
     print(word_length_histogram(input_text))
