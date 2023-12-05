@@ -9,6 +9,7 @@ def main():
 
     for line in infile:
         outfile.write(line)
+        print(f'The sum of the args is: {result_sum}')
 
     infile.close()
     outfile.close()
