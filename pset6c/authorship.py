@@ -23,7 +23,7 @@ def word_length_histogram(text):
     return word_histogram
 
 
-def print_report(word_histogram):
+def print_report(word_dict):
 
     total_words = sum(word_histogram.values())
 
@@ -37,7 +37,7 @@ def main():
         input_text = f.readlines()
 
     word_dict = word_length_histogram(input_text)
-    # print(print_report(word_histogram))
+    print(print_report(word_dict))
 
 main()
 
