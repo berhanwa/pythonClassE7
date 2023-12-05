@@ -1,4 +1,3 @@
-
 keyword_name = input("Enter a keyword to search for: ")
 input_file_name = input("Enter a file to search it in: ")
 
