@@ -21,13 +21,13 @@ def word_length_histogram(input_text):
                 word_histogram[len(word)] = 1
 
     return word_histogram
-sorted(word_histogram)
 
 def print_report(word_dict):
 
     total_words = sum(word_dict.values())
 
-    for len_word in word_dict:
+    # Iterates through word_dict (the dictionary) and prints out the results of the 
+    for len_word in sorted(word_dict):
        print(f'Proportion of {len_word}-letter words: {(word_dict[len_word]/total_words)*100:.2f}% ({word_dict[len_word]}) ')
 
 
