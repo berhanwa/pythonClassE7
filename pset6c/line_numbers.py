@@ -14,17 +14,22 @@ def main():
         output_file = argv[2]
 
     else:
-        
-    line_num = 0
+        input_file = input("Enter an input filename to read: ")
+        output_file = input("Enter an output filename to create: ")
 
-    for line in infile:
-        # outfile.write(line)
-        line_num += 1
-        updated_lines = f"/*{line_num}*/ {line}\n"
-        outfile.write(updated_lines)
-        # outfile.write("/*"line_num"*/" line"\n", file=outfile)
-    infile.close()
-    outfile.close()
+    add_line_numbers(input_file, output_file)
+    print("The task is complete.")
+
+    # line_num = 0
+
+    # for line in infile:
+    #     # outfile.write(line)
+    #     line_num += 1
+    #     updated_lines = f"/*{line_num}*/ {line}\n"
+    #     outfile.write(updated_lines)
+    #     # outfile.write("/*"line_num"*/" line"\n", file=outfile)
+    # infile.close()
+    # outfile.close()
 
 main()
 
@@ -35,5 +40,3 @@ print("The task is complete.")
     # infile = open (input_file_name, "r")
     # outfile = open (output_file_name, "w")
 
-# input_file_name = input("Enter an input filename to read: ")
-# output_file_name = input("Enter an output filename to create: ")
