@@ -10,7 +10,7 @@ number_of_line = 0
 while len(line) != 0:
     if keyword_name in line:
         number_of_line += 1
-        print (number_of_line, '\n')
+        print (number_of_line, line)
     line = f.readline()
 
 f.close()
