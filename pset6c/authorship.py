@@ -1,7 +1,7 @@
 # text = ["blah"]
-
 with open('romeo_and_juliet_data.txt', 'r') as f:
     input_text = f.readlines()
+
 
 def word_length_histogram(input_text):
     word_histogram = {}
@@ -25,7 +25,7 @@ def word_length_histogram(input_text):
 
     return word_histogram
 
-print(word_length_histogram(input_text))
+# print(word_length_histogram(input_text))
 
 
 def print_report(word_dict):
