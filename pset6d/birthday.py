@@ -11,4 +11,7 @@ def simulate_birthdays(simulations, students):
     matches = 0
 
     for sim in range(simulations):
-        
+
+        birthdays = [randint(1, 365) for student in range(students)]
+        if find_matches(birthdays):
+            matches +=
