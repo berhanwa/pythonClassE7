@@ -1,6 +1,6 @@
 from sys import argv
 
-# Created this function to open the input file and create the output file
+# Created this function to open the input file and create the output file with the formatting required
 def add_line_numbers(input_file, output_file):
     with open(input_file, 'r') as file:
         lines = file.readlines()
@@ -9,6 +9,7 @@ def add_line_numbers(input_file, output_file):
         for line_num in range(len(lines)):
             file.write(f"/*{line_num}*/ {lines[line_num]}")
 
+# Here, ensured that three arguments are passed in the command line and if not, the program prompts users to 
 def main():
     if len(argv) == 3:
         input_file = argv[1]
@@ -21,7 +22,7 @@ def main():
     add_line_numbers(input_file, output_file)
     print("The task is complete.")
 
-    # for line in infile:
+
     #     # outfile.write(line)
     #     line_num += 1
     #     updated_lines = f"/*{line_num}*/ {line}\n"
