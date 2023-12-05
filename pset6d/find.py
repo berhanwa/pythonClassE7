@@ -4,9 +4,11 @@ input_file_name = input("Enter a file to search it in: ")
 
 f = open (input_file_name, "r")
 
+# Initialized the line and number_of_line variables
 line = f.readline()
 number_of_line = 0
 
+# In the while loop where the length of the file isn't empty, it's checking which line the keyword is on and if it's found on a line, it gets printed out
 while len(line) != 0:
     if keyword_name in line:
         number_of_line += 1
