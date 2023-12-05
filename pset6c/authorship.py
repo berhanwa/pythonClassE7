@@ -14,7 +14,7 @@ def word_length_histogram(text):
             word = word.replace("'", "")
 
             # If the length is a key, the length of the dictionary is increased by one
-            if len(word) in word_hist.keys():
+            if len(word) in word_histogram.keys():
                 word_histogram[len(word)] += 1
 
             else:
@@ -33,6 +33,6 @@ def print_report(word_histogram):
     total_words = sum(list(word_dict.values()))
 
     for len_word in word_dicts:
-        print('The proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
+        print('Proportion of ', len_word, '-letter words is ', word_dict(len_word), word_dict(len_word)/total_words)
 
 # def main():
