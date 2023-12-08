@@ -185,9 +185,18 @@
 
 # print(mystery)
 
-def mystery(n):
-    if n <= 0:
+# def mystery(n):
+#     if n <= 0:
+#         return 0
+#     return mystery(n // 2) + 1
+
+# print(mystery(20))
+
+
+def recurse (a_list):
+    if a_list == []:
         return 0
-    return mystery(n // 2) + 1
+    else:
+        return 1 + recurse(a_list[1:])
 
 print(mystery(20))
