@@ -199,4 +199,4 @@ def recurse (a_list):
     else:
         return 1 + recurse(a_list[1:])
 
-print(mystery(20))
+print(recurse([4, 9, 'blah', 3.21]))
