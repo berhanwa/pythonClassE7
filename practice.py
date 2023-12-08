@@ -179,8 +179,15 @@
 # print('a' in y)
 # print(6 in y)
 
-snacks = [ 'apple', 'orange', 'chocolate' ]
-# mystery = [ x + 's' for x in snacks ]
-mystery = { x : len(x) for x in snacks }
+# snacks = [ 'apple', 'orange', 'chocolate' ]
+# # mystery = [ x + 's' for x in snacks ]
+# mystery = { x : len(x) for x in snacks }
 
-print(mystery)
+# print(mystery)
+
+def mystery(n):
+    if n <= 0:
+        return 0
+    return mystery(n // 2) + 1
+
+print(mystery(20))
