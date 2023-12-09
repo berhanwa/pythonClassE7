@@ -15,4 +15,7 @@ def missing_letters(words):
     return missing_letters
 
 def main():
-    words = [ 'Now', 'is', ]
+    words = [ 'Now', 'is', 'the', 'TIME']
+    result = missing_letters(words)
+    print(result)
+main()
