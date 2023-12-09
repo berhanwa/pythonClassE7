@@ -1,5 +1,6 @@
 import csv
 
+# Here, initialized the ids dictionary, printed the header values and accessed the csv file
 def employees():
     ids = {}
     id = 1
@@ -8,7 +9,7 @@ def employees():
     with open("employees.csv", "r") as file:
         reader = csv.DictReader(file)
 
-
+        # Then, iterated through reader to concatenate both names into the variable employee_name
         for row in reader:
             employee_name = row['FirstName'] + ' ' + row['LastName']
             manager_name = row['Manager']
