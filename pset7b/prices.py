@@ -19,9 +19,10 @@ url = f"https://www.alphavantage.co/query?apikey={API_KEY}&datatype=csv&function
 response = requests.get(url)
 print(response.text)
 
-Parsed the reader as a dictionary,
+# Parsed the reader
 reader = csv.DictReader(response.text.splitlines())
 
+# Print most recent price and the next line of the file
 row = next(reader)
 print(row)
 print(f"${row["close"]}")
