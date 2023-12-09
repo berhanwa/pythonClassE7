@@ -1,6 +1,6 @@
 import csv
 
-# Here, initialized the ids dictionary, printed the header values and accessed the csv file
+# Here, initialized the ids dictionary which stores the employee names and ids, printed the header values and accessed the csv file
 def employees():
     ids = {}
     id = 1
