@@ -9,7 +9,7 @@ def employees():
     with open("employees.csv", "r") as file:
         reader = csv.DictReader(file)
 
-        # Then, iterated through each row in the csv to concatenate both names into the variable employee_name and assign the manager_name variable
+        # Then, iterated through each row in the csv to assign the employee and manager names. For the employees, concatenated both names into the variable.
         for row in reader:
             employee_name = row['FirstName'] + ' ' + row['LastName']
             manager_name = row['Manager']
