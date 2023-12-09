@@ -8,10 +8,10 @@ def missing_letters(words):
 
     for word in words:
         for char in word:
-            upper(used_letters.add(char))
+            used_letters.add(char)
 
     missing_letters = sorted(list(alphabet - used_letters))
-    return missing_letters
+    return upper(missing_letters)
 
 def main():
     words = [ 'Now', 'is', 'the', 'TIME']
