@@ -1,6 +1,6 @@
 import string
 alphabet = set(string.ascii_uppercase)
-missing_letters = ''.join(words)
+# missing_letters = ''.join(words)
 
 def missing_letters(words):
     used_letters = set()
@@ -22,12 +22,6 @@ def main():
     result = missing_letters(combined_words)
     print(result)
 main()
-
-def main():
-    words = [ 'Now', 'is', 'the', 'TIME']
-    combined_words = ''.join(words)
-    result = missing_letters(combined_words)
-    print(result)
 
 # def main():
 #     words = [ 'Now', 'is', 'the', 'TIME']
