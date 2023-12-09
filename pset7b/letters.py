@@ -10,7 +10,7 @@ def missing_letters(words):
         for char in word:
             used_letters.add(char)
 
-    missing_letters = sorted(list(alphabet(used_letters)))
+    missing_letters = sorted(set(alphabet - used_letters))
 
     return [letter.upper() for letter in missing_letters]
 
