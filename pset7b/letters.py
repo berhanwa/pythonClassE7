@@ -4,12 +4,11 @@ alphabet = set(string.ascii_uppercase)
 def missing_letters(words):
     used_letters = set()
 
-    if words == isalpha():
-        for word in words:
-            word = word.upper()
-            for char in word:
-                used_letters.add(char)
-                # alphabet_cap = alphabet.upper()
+    for word in words:
+        word = word.upper()
+        for char in word isalpha():
+            used_letters.add(char)
+            # alphabet_cap = alphabet.upper()
 
     missing_letters = sorted(alphabet.difference(used_letters))
     # missing_letters = sorted(alphabet - used_letters)
