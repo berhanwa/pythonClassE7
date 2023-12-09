@@ -206,6 +206,10 @@
 # y.add('a')
 # print(y)
 
-y = { 'b', 'a', 'b', 'c' }
-y.remove('b')
+# y = { 'b', 'a', 'b', 'c' }
+# y.remove('b')
+# print(y)
+
+y = { 'a', 'b' }
+y.remove('c')
 print(y)
