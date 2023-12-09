@@ -238,8 +238,11 @@ def power (x, n):
         return 1.0
     elif n % 2 == 0:
         return power(x, n/2)
-    elif n > 0 and n % 2 == 1:
+    elif n > 0:
         return x * power(x, n-1)
+    else:
+        return 1.0 / power (x, -n)
+    
     # else:
     #     return 1.0 / power (x, -n)
 
