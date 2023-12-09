@@ -5,9 +5,9 @@ def missing_letters(words):
     used_letters = set()
 
     for word in words:
-        if  word.isalpha():
-            word = word.upper()
-            for char in word:
+        word = word.upper()
+        for char in word:
+            if  char.isalpha():
                 used_letters.add(char)
             # alphabet_cap = alphabet.upper()
 
