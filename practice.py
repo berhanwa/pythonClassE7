@@ -193,10 +193,15 @@
 # print(mystery(20))
 
 
-def recurse (a_list):
-    if a_list == []:
-        return 0
-    else:
-        return 1 + recurse(a_list[1:])
+# def recurse (a_list):
+#     if a_list == []:
+#         return 0
+#     else:
+#         return 1 + recurse(a_list[1:])
 
-print(recurse([4, 9, 'blah', 3.21]))
+# print(recurse([4, 9, 'blah', 3.21]))
+
+y = set()
+y.add('a')
+y.add('a')
+print(y)
