@@ -1,6 +1,6 @@
 import string
 alphabet = set(string.ascii_uppercase)
-
+missing_letters = ''.join(words)
 def missing_letters(words):
     used_letters = set()
 
@@ -10,7 +10,6 @@ def missing_letters(words):
             if  char.isalpha():
                 used_letters.add(char)
             # alphabet_cap = alphabet.upper()
-
     missing_letters = sorted(alphabet.difference(used_letters))
     # missing_letters = sorted(alphabet - used_letters)
     return missing_letters
