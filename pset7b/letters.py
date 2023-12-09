@@ -1,5 +1,5 @@
 import string
-alphabet = list(string.ascii_uppercase)
+alphabet = list(string.ascii_letters)
 print (alphabet)
 
 
