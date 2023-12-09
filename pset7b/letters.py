@@ -1,9 +1,8 @@
 import string
 alphabet = set(string.ascii_uppercase)
-used_letters = set()
 
 def missing_letters(words):
-
+    used_letters = set()
     for word in words:
         word = word.upper()
         for char in word:
