@@ -229,7 +229,7 @@ def power (x, n):
     elif n % 2 == 0:
         return x * power(x, n)
     else:
-        return 1.0 / power(x, -n)
+        return 1.0 / power(x, n-1)
 
 test_values = [
     (2, 0),   # 2^0 = 1
