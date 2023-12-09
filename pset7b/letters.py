@@ -23,6 +23,12 @@ def main():
     print(result)
 main()
 
+def main():
+    words = [ 'Now', 'is', 'the', 'TIME']
+    combined_words = ''.join(words)
+    result = missing_letters(combined_words)
+    print(result)
+
 # def main():
 #     words = [ 'Now', 'is', 'the', 'TIME']
 #     result = missing_letters(words)
