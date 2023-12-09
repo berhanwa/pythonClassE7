@@ -223,15 +223,26 @@
 # set1.discard(5)
 # print(set1)
 
+# def power (x, n):
+#     if n == 0:
+#         return 1.0
+#     elif n > 0:
+#         return x * power(x, n-1)
+#     elif n % 2 == 0:
+#         return power(x, n/2)
+#     else:
+#         return 1.0 / power (x, -n)
+
 def power (x, n):
     if n == 0:
         return 1.0
-    elif n > 0:
-        return x * power(x, n-1)
     elif n % 2 == 0:
         return power(x, n/2)
-    else:
-        return 1.0 / power (x, -n)
+    elif n > 0 and n % 2 == 1:
+        return x * power(x, n-1)
+    # else:
+    #     return 1.0 / power (x, -n)
+
 
 test_values = [
     (2, 0),   # 2^0 = 1
