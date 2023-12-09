@@ -210,6 +210,9 @@
 # y.remove('b')
 # print(y)
 
-y = { 'a', 'b' }
-y.remove('c')
-print(y)
+# y = { 'a', 'b' }
+# y.remove('c')
+# print(y)
+
+letters = { 'a', 'b', 'c' }
+'ab' in letters
