@@ -11,3 +11,5 @@ symbol = sys.argv[1]
 API_KEY = os.getenv("API_KEY")
 if not API_KEY:
     sys.exit("Missing API_KEY")
+
+url = f""
