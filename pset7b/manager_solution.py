@@ -25,9 +25,11 @@ def employees():
                     ids[manager_name] = id
                     id += 1
 
+                # Then printed a formatted result of employees with managers
                 print(f"{ids[employee_name]}, {ids[manager_name]}, {row['FirstName']}, {row['LastName']}")
 
             else:
+                # And printed a formatted result of employees without managers
                 print(f"{ids[employee_name]}, , {row['FirstName']}, {row['LastName']}")
 
 def main():
