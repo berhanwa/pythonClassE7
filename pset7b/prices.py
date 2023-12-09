@@ -12,7 +12,7 @@ API_KEY = os.getenv("API_KEY")
 if not API_KEY:
     sys.exit("Missing API_KEY")
 
-url = f"https://www.alphavantage.co/query?apikey={TVAWRB3X4K3B6Y0G}&datatype=csv&function=TIME_SERIES_INTRADAY&interval=5min&symbol={symbol}"
+url = f"https://www.alphavantage.co/query?apikey={API_KEY}&datatype=csv&function=TIME_SERIES_INTRADAY&interval=5min&symbol={symbol}"
 response = requests.get(url)
 print(response.txt)
 
