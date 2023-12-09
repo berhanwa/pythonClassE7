@@ -1,17 +1,14 @@
 import string
 alphabet = set(string.ascii_letters)
 
-
 def missing_letters(words):
 
     used_letters = set()
-
     for word in words:
         for char in word:
             used_letters.add(char)
 
-    missing_letters = sorted(set(alphabet - used_letters))
-
+    missing_letters = sorted(alphabet - used_letters)
     return [letter.upper() for letter in missing_letters]
 
 def main():
