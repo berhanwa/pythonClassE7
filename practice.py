@@ -214,5 +214,10 @@
 # y.remove('c')
 # print(y)
 
-letters = { 'a', 'b', 'c' }
-'ab' in letters
+# letters = { 'a', 'b', 'c' }
+# 'ab' in letters
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {2, 4, 6, 8}
+
+set1.issubset(set2)
