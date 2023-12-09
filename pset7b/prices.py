@@ -14,7 +14,7 @@ if not API_KEY:
 
 url = f"https://www.alphavantage.co/query?apikey={API_KEY}&datatype=csv&function=TIME_SERIES_INTRADAY&interval=5min&symbol={symbol}"
 response = requests.get(url)
-print(response.txt)
+print(response.text)
 
 reader = csv.DictReader(response.text.splitlines())
 
