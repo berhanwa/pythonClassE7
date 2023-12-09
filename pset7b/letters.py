@@ -19,7 +19,7 @@ def missing_letters(words):
 
 # Here, an example of words are assigned and created combined_words with the join method to account for any non-letter characters inside of words
 def main():
-    words = [ 'Now', 'is', 'the', 'TIME', 'ACyz']
+    words = [ 'Now', 'is', 'the', 'TIME']
     combined_words = ''.join(words)
     result = missing_letters(combined_words)
     print(result)
