@@ -3,6 +3,7 @@ alphabet = set(string.ascii_letters)
 
 def missing_letters(words):
 
+    upper(alphabet)
     used_letters = set()
     for word in words:
         for char in word:
