@@ -13,3 +13,5 @@ def missing_letters(words):
 
     missing_letters = sorted(list(all_letters - used_letters))
     return missing_letters
+
+def main():
