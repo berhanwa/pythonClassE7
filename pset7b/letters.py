@@ -1,6 +1,5 @@
 import string
 alphabet = set(string.ascii_letters)
-print (alphabet)
 
 
 def missing_letters(words):
