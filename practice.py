@@ -217,8 +217,34 @@
 # letters = { 'a', 'b', 'c' }
 # 'ab' in letters
 
-set1 = {1, 2, 3, 4, 5}
-set2 = {2, 4, 6, 8}
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {2, 4, 6, 8}
 
-set1.discard(5)
-print(set1)
+# set1.discard(5)
+# print(set1)
+
+def power (x, n):
+    if n == 0:
+        return 1.0
+    elif n > 0:
+        return x * power(x, n-1)
+    else:
+        return 1.0 / power(x, -n)
+
+test_values = [
+    (2, 0),   # 2^0 = 1
+    (3, 1),   # 3^1 = 3
+    (5, 2),   # 5^2 = 25
+    (4, 3),   # 4^3 = 64
+    (6, 4),   # 6^4 = 1296
+    (7, 5),   # 7^5 = 16807
+    (2, 6),   # 2^6 = 64
+    (3, 7),   # 3^7 = 2187
+    (5, 8),   # 5^8 = 390625
+    (10, 9)   # 10^9 = 1000000000
+]
+
+for base, exponent in test_values:
+    result = power(base, exponent)
+    result2 = pow(base, exponent)
+    print(f"{base}^{exponent} = {result} vs {result2}")
