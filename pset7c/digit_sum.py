@@ -12,11 +12,11 @@ def digit_sum(n):
         # Then turned the indices within total into a list of integers, in order to use the sum function
         digits = [int(i) for i in total]
 
-        return sum(digits)
+        return digit_sum(digits[1:])
 
 # Supposed to make it recursive by removing an index until n meets base case
-    else:
-        return digit_sum(digits[1:])
+    # else:
+    #     return digit_sum(digits[1:])
 
 print(digit_sum(3456))
 
