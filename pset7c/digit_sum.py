@@ -11,7 +11,8 @@ def digit_sum(n):
     else:
         return n % 10 + digit_sum(n // 10)
 
-Tested 
+
+# Tested the program with some example 1, 2, 3, and 4-digit integer values
 def main()
     print(digit_sum(3))
     print(digit_sum(23))
