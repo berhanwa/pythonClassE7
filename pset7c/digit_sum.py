@@ -15,7 +15,8 @@ def digit_sum(n):
         return sum(digits)
 
 # Supposed to make it recursive by removing an index until n meets base case
-else: 
+    else:
+        return digit_sum(digits[1:])
 
 print(digit_sum(3456))
 
