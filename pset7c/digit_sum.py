@@ -6,9 +6,9 @@ def digit_sum(n):
     else:
         total = str(n)
         # for digit in n:
-            digits = [int(i) for i in total]
+        digits = [int(i) for i in total]
         return sum(digits)
-    digit_sum(n)
+    # digit_sum(n)
 
 
 print(digit_sum(3456))
