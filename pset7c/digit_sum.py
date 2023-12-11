@@ -6,7 +6,7 @@ def digit_sum(n):
     if n < 10:
         return n
 
-    else:
+    elif n > 10:
         # Turned n to a string and assigned it to variable in order to iterate through it
         total = str(n)
         # Then turned the indices within total into a list of integers, in order to use the sum function
