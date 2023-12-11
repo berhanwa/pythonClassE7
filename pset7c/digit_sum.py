@@ -7,18 +7,15 @@ def digit_sum(n):
     if n < 10:
         return n
 
-    # If not, then the last digit of n (found by n % 10) is incremented recursively onto the function after the last digit is removed (by n // 10)
+    # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) recursively onto the function after the last digit is removed (by n // 10)
     else:
         return n % 10 + digit_sum(n // 10)
 
-# Supposed to make it recursive by removing an index until n meets base case
-
-    #     return digit_sum(digits[1:])
-
-print(digit_sum(3456))
-print(digit_sum(3))
-print(digit_sum(23))
-
+def main()
+    print(digit_sum(3456))
+    print(digit_sum(3))
+    print(digit_sum(23))
+main()
 # def digit_sum(n):
 
 #     if n < 10:
