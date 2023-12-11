@@ -7,7 +7,7 @@ def digit_sum(n):
     if n < 10:
         return n
 
-    # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) recursively onto the function after the last digit is removed (by n // 10)
+    # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) that were collected after recursively iterating through
     else:
         return n % 10 + digit_sum(n // 10)
 
@@ -19,7 +19,7 @@ def main()
 main()
 
     # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) recursively onto the function after the last digit is removed (by n // 10)
-    
+
 # def digit_sum(n):
 
 #     if n < 10:
