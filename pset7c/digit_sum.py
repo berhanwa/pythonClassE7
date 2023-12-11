@@ -1,9 +1,9 @@
 def digit_sum(n):
     if n < 10:
-        return
+        return n
     else:
-        for i in range(n)
-            return
+        for i in range(n):
+            return sum(i)
 
 
-print(digit_sum(n))
+print(digit_sum(3456))
