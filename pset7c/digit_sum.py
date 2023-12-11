@@ -7,7 +7,7 @@ def digit_sum(n):
     else:
         for digit in n:
                 total += int(digit)
-                return total
+        return total
 
 
 print(digit_sum(3456))
