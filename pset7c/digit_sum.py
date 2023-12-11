@@ -4,10 +4,11 @@ def digit_sum(n):
 
     if n < 10:
         return n
+
     else:
         for digit in n:
-                total += int(digit)
-        return 
+
+        return digit_sum(n)
 
 
 print(digit_sum(3456))
