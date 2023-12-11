@@ -12,10 +12,12 @@ def digit_sum(n):
         return n % 10 + digit_sum(n // 10)
 
 def main()
-    print(digit_sum(3456))
     print(digit_sum(3))
     print(digit_sum(23))
+    print(digit_sum(345))
+    print(digit_sum(3456))
 main()
+
 # def digit_sum(n):
 
 #     if n < 10:
