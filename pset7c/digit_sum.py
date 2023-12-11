@@ -1,3 +1,6 @@
+
+# Step one: Make the function work as needed
+# Step two: Now make it recursive
 def digit_sum(n):
 
     if n < 10:
@@ -12,7 +15,6 @@ def digit_sum(n):
 
 
 print(digit_sum(3456))
-
 
 
 # def digit_sum(n):
