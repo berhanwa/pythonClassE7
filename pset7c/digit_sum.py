@@ -3,14 +3,16 @@
 
 def digit_sum(n):
 
+    # Base case - if n is a single digit, the function just itself
     if n < 10:
         return n
 
+    # If not, then the last digit of n (found by n % 10) is incremented recursively onto
     else:
         return n % 10 + digit_sum(n // 10)
 
 # Supposed to make it recursive by removing an index until n meets base case
-    # else:
+
     #     return digit_sum(digits[1:])
 
 print(digit_sum(3456))
