@@ -1,9 +1,11 @@
 def digit_sum(n):
+
+    total = 0
+    
     if n < 10:
         return n
     else:
-        n = str(n)
-        for i in range(n):
+        for i in range(total):
             return sum(i)
 
 
