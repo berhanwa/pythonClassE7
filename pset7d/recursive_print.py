@@ -2,7 +2,7 @@
 def print_number(n):
     ones_numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     tens_numbers = ["", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
-    teens_numbers = ["", "eleven", "twelve", "thirteen", "forteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+    teens_numbers = ["", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 
     if n < 0:
         print("minus", end = " ")
