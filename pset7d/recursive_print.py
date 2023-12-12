@@ -18,13 +18,11 @@ def print_number(n):
     elif 10 <= n < 20:
         print(teens_numbers[n - 10], end = " ")
 
-    elif n < 100:
+    elif n <= 100:
         print(tens_numbers[n // 10], end = " ")
         print_number(n % 10)
 
     elif n < 1000:
-        # print_number(n // 10)
-        # print_number(n // 10)
         print(ones_numbers[n // 100], "hundred", end = " ")
         print_number(n % 100)
 
