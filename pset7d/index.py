@@ -1,3 +1,6 @@
+####  Attempted this problem for extra credit  ####
+
+
 # After detailing the base case from the pset handout, checked if the length of the two parameters are equal, meaning that a_string is at the 0th index position
 def index_of(text, a_string):
     if not(a_string in text):
