@@ -8,7 +8,7 @@ def print_number(n):
     teens_numbers = ["", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 
     if n < 0:
-        print("minus", end = " ")
+        print("negative", end = " ")
         n = abs(n)
 
     if n < 10:
@@ -43,9 +43,9 @@ def print_number(n):
         print("billion", end = " ")
         print_number(n % 1000000000)
 
-print(f"{print_number(143)} /n")
-# print_number(143)
-# print_number(143)
+# print(f"{print_number(143)}")
+print_number(143)
+print_number(-3)
 # print_number(2003)
 # print()
 
