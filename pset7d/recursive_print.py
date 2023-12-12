@@ -15,34 +15,23 @@ def print_number(n):
         print("negative", end = " ")
         n = abs(n)
 
-    # if n < 10:
-    #     print(ones_numbers[n], end = " ")
-
-    # if n == 10:
-    #     print(tens_numbers[n - 10 + 1], end = " ")
-
-    # elif n < 20:
-    #     print(teens_numbers[n - 10], end=" ")
-
     if n < 20:
         print(first_twenty[n], end=" ")
 
-    elif n <= 100:
-        print(tens_numbers[n // 10], end = " ")
-        print_number(n % 10)
-
+    elif n < 100:
+        print(tens_numbers[n // 10], end=" ") # Print the tens
+        print_number(n % 10) # Print the ones
     elif n < 1000:
-        print(ones_numbers[n // 100], "hundred", end = " ")
-        print_number(n % 100)
-
+        print_number(n // 100) # Print the hundreds
+        print("hundred", end=" ")
+        print_number(n % 100) # Print the rest
     elif n < 1000000:
-        # print_number(n // 1000)
-        print(ones_numbers[n // 1000], "thousand", end = " ")
-        print_number(n % 1000)
-
+        print_number(n // 1000) # Print the thousands
+        print("thousand", end=" ")
+        print_number(n % 1000) # Print the rest
     elif n < 1000000000:
-        print_number(n // 1000000)
-        print("million", end = " ")
+        print_number(n // 1000000) # Print the millions
+        print("million", end=" ")
         print_number(n % 1000000)
 
     # Attempted extra credit portion by factoring numbers larger than a million into the program
