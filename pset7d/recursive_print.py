@@ -21,14 +21,17 @@ def print_number(n):
     elif n < 100:
         print(tens_numbers[n // 10], end=" ") # Print the tens
         print_number(n % 10) # Print the ones
+        
     elif n < 1000:
         print_number(n // 100) # Print the hundreds
         print("hundred", end=" ")
         print_number(n % 100) # Print the rest
+
     elif n < 1000000:
         print_number(n // 1000) # Print the thousands
         print("thousand", end=" ")
         print_number(n % 1000) # Print the rest
+
     elif n < 1000000000:
         print_number(n // 1000000) # Print the millions
         print("million", end=" ")
