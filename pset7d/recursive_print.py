@@ -15,7 +15,7 @@ def print_number(n):
         print(tens_numbers[n - 10 + 1], end = " ")
 
     # elif n > 10 and n < 20:
-    elif  10 < n < 20:
+    elif 10 <= n < 20:
         print(teens_numbers[n - 10], end = " ")
 
     elif n < 100:
