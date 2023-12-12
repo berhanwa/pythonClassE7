@@ -1,3 +1,7 @@
+####  Attempted this problem for extra credit  ####
+
+
+
 # Started by assigning variables to lists by decimal type
 def print_number(n):
     ones_numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
