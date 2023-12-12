@@ -17,6 +17,3 @@ def main():
     print(sum_to(0))
     print(sum_to(-12))
 main()
-
-
- # print("Error")
