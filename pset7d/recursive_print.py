@@ -7,6 +7,7 @@ def print_number(n):
     tens_numbers = ["", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
     teens_numbers = ["", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 
+    # In this if statement part, defined the different digit lengths and assigned the appropriate variable from above and what should be printed out
     if n < 0:
         print("negative", end = " ")
         n = abs(n)
@@ -44,9 +45,11 @@ def print_number(n):
         print("billion", end = " ")
         print_number(n % 1000000000)
 
-        
 
+# Then printed out some values to test the program
 print(f"{print_number(143)} ")
+print(f"{print_number(-3)} ")
+print(f"{print_number(2002)} ")
 print(f"{print_number(-3)} ")
 # print_number(143)
 # print_number(-3)
