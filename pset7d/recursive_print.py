@@ -38,16 +38,20 @@ def print_number(n):
         print("million", end = " ")
         print_number(n % 1000000)
 
+    # Attempted extra credit portion by factoring numbers larger than a million into the program
     elif n < 1000000000000:
         print_number(n // 1000000000)
         print("billion", end = " ")
         print_number(n % 1000000000)
 
-# print(f"{print_number(143)}")
-print_number(143)
-print_number(-3)
+        
+
+print(f"{print_number(143)} ")
+print(f"{print_number(-3)} ")
+# print_number(143)
+# print_number(-3)
 # print_number(2003)
-# print()
+
 
 
     # elif 10 <= n < 20:
