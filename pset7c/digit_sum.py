@@ -2,12 +2,11 @@
 # Step two: Now make it recursive
 
 def digit_sum(n):
-
-    # Base case - if n is a single digit, the function just itself
+    # Base case - if n is a single digit, the function just returns n itself
     if n < 10:
         return n
 
-    # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) that were collected after recursively iterating through the digits of n
+    # If not, then the sum of the values within n is calculated by adding last digits of n (found by n % 10) that were collected after recursively iterating through the digits of n
     else:
         return n % 10 + digit_sum(n // 10)
 
