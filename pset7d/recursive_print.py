@@ -22,6 +22,8 @@ def print_number(n):
         print_number(n % 10)
 
     elif n < 1000:
+        # print_number(n // 10)
+        # print("hundred", end = " ")
         print_number(n // 10)
         print("hundred", end = " ")
         print_number(n % 100)
