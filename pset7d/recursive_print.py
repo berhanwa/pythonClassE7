@@ -25,7 +25,7 @@ def print_number(n):
         # print_number(n // 10)
         # print("hundred", end = " ")
         # print_number(n // 10)
-        print(ones_numbers[n // 10], "hundred", end = " ")
+        print(ones_numbers[n // 100], "hundred", end = " ")
         print_number(n % 100)
 
     elif n < 1000000:
