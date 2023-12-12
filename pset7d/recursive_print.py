@@ -16,7 +16,7 @@ def print_number(n):
 
     # elif n > 10 and n < 20:
     elif 10 <= n < 20:
-        print(teens_numbers[n], end = " ")
+        print(teens_numbers[n - 10], end = " ")
 
     elif n < 100:
         print(tens_numbers[n // 10], end = " ")
@@ -24,7 +24,6 @@ def print_number(n):
 
     elif n < 1000:
         # print_number(n // 10)
-        # print("hundred", end = " ")
         # print_number(n // 10)
         print(ones_numbers[n // 100], "hundred", end = " ")
         print_number(n % 100)
