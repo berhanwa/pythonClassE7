@@ -12,7 +12,7 @@ def digit_sum(n):
 
 
 # Tested the program with some example 1, 2, 3, and 4-digit integer values
-def main()
+def main():
     print(digit_sum(3))
     print(digit_sum(23))
     print(digit_sum(345))
