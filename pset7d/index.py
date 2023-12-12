@@ -1,9 +1,9 @@
 def index_of(text, a_string):
     if not(a_string in text):
         return -1
-    elif:
-        return text.startswith(a_string) +
+    elif len(a_string) == len(text):
+        return 0
     else:
-        return index_of(text[1:], a_string)
+        return index_of(text[1:], a_string) + 1
 
-print(s.index_of("Mississippi", "sip"))
+print(index_of("Mississippi", "sip"))
