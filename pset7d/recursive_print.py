@@ -41,4 +41,6 @@ def print_number(n):
         print("billion", end = " ")
         print_number(n % 1000000000)
 
-print(print_number(143))
+# print(print_number(143))
+print_number(143)
+print()
