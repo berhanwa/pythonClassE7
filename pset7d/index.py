@@ -11,3 +11,4 @@ def index_of(text, a_string):
         return index_of(text[1:], a_string) + 1
 
 print(index_of("Mississippi", "sip"))
+print(index_of("Amron", "ron"))
