@@ -9,13 +9,13 @@ def print_number(n):
         n = abs(n)
 
     if n < 10:
-        print(ones_numbers(n), end = " ")
+        print(ones_numbers[n], end = " ")
 
     if n == 10:
-        print(tens_numbers(n - 10 + 1), end = " ")
+        print(tens_numbers[n - 10 + 1], end = " ")
 
     elif n < 20:
-        print(teens_numbers(n - 10), end = " ")
+        print(teens_numbers[n - 10], end = " ")
 
     elif n < 100:
         print(tens_numbers[n // 10], end = " ")
