@@ -19,6 +19,11 @@ def main()
     print(digit_sum(3456))
 main()
 
+
+
+
+
+
     # If not, then the sum of n is calculated by adding last digit of n (found by n % 10) recursively onto the function after the last digit is removed (by n // 10)
 
 
