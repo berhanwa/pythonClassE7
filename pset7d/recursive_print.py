@@ -50,7 +50,7 @@ def print_number(n):
 print(f"{print_number(143)} ")
 print(f"{print_number(-3)} ")
 print(f"{print_number(2002)} ")
-print(f"{print_number(-3)} ")
+print(f"{print_number(10)} ")
 # print_number(143)
 # print_number(-3)
 # print_number(2003)
