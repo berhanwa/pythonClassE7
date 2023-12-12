@@ -1,7 +1,6 @@
 ####  Attempted this problem for extra credit  ####
 
 
-
 # Started by assigning variables to lists by decimal type
 def print_number(n):
     ones_numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
@@ -44,7 +43,8 @@ def print_number(n):
         print("billion", end = " ")
         print_number(n % 1000000000)
 
-print_number(143)
+print(f"{print_number(143)} /n")
+# print_number(143)
 # print_number(143)
 # print_number(2003)
 # print()
