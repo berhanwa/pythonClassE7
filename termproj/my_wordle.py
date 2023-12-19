@@ -2,6 +2,7 @@
 # Iterate through each of the 6 rounds of guesses and check each char, if it's in the word, in the right place or not in there
 # Return the feedback per round until the final 6th round to let users know if they won or lost
 
+#Leverage the words.txt file from which the winning word will be selected
 def load_words():
     words = []
     for line in open("words.txt"):
@@ -49,7 +50,7 @@ def play(word):
         # print(letters)
 
 
-#Then in the main function, used a while loop to iterate through each round of the game being played
+#Then in the main function, used a while loop to iterate through each round of the game being played, and decrement each round by 1 until 0 is reached
 def main():
     import random
     words = load_words()
