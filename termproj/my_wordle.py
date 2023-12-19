@@ -7,7 +7,7 @@
 from random import *
 from sys import argv
 
-def guess():
+def guesses():
         word_list = []
     rounds
     with open(argv[1], 'r') as file:
