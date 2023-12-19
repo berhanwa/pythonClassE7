@@ -46,7 +46,7 @@ def play(word):
                 result += "🔴"
                 letters += guess[i].upper() + " "
 
-        print(result)
+        # print(result)
         # print(letters)
 
 def main():
