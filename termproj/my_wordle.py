@@ -12,6 +12,7 @@ def load_words():
         for item in items:
             words.append(item)
             print(item)
+    return words
 
 def play(word):
     guess = input("Enter a 5 letter word: ").lower()
