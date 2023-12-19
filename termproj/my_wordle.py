@@ -24,7 +24,6 @@ def play(word):
         print()
         return True
     else:
-
         result = ""
         letters = " "
         for i in range(0, len(word)):
