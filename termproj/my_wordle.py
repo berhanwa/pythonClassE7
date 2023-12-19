@@ -9,8 +9,11 @@ from sys import argv
 
 def guess():
         word_list = []
+
     with open(argv[1], 'r') as file:
+
         for word in file:
             word_list.append( word[0:len(word)-1] )
     # print(word_list)
 
+print("Wordle Game Instructions")
