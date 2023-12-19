@@ -1,7 +1,5 @@
 # Program begins by asking users to guess the word
-
 # Iterate through each of the 6 rounds of guesses and check each char, if it's in the word, in the right place or not in there
-
 # Return the feedback per round until the final 6th round to let users know if they won or lost
 
 def load_words():
@@ -13,6 +11,7 @@ def load_words():
             print(item)
     return words
 
+#Defined the game logic here where the user guesses are filtered to fit in each of the 4 game conditions through if statements
 def play(word):
     guess = input("Enter a 5 letter word: ").lower()
     if len(guess) != 5:
@@ -46,9 +45,11 @@ def play(word):
                 result += "🔴"
                 letters += guess[i].upper() + " "
 
-        # print(result)
+        print(result)
         # print(letters)
 
+
+#Then in the main function, used a while loop to iterate through each round of the game being played
 def main():
     import random
     words = load_words()
@@ -69,9 +70,4 @@ def main():
     if guesses == 0:
         word[0] = word[0].upper()
         print("You lost. The correct word was %s." %word)
-
 main()
-
-# print("Wordle Game Instructions")
-
-
