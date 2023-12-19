@@ -9,8 +9,21 @@ from sys import argv
 
 def load_words():
     words = []
-    for line in open("words.txt")
-    rounds
+    for line in open("words.txt"):
+        items = line.strip().split()
+        for item in items:
+            words.append(item)
+            print(item)
+
+def play(word):
+    guess = input("Enter a 5 letter word: ").lower()
+
+    #Scenario Number One - User guesses the correct word and wins
+    if guess == word:
+        print("🟢🟢🟢🟢🟢")
+
+
+
     with open(argv[1], 'r') as file:
 
         for word in file:
