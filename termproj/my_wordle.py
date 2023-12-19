@@ -4,6 +4,13 @@
 
 # Return the feedback per round until the final 6th round to let users know if they won or lost
 
-def guess():
+from random import *
+from sys import argv
 
-    
+def guess():
+        word_list = []
+    with open(argv[1], 'r') as file:
+        for word in file:
+            word_list.append( word[0:len(word)-1] )
+    # print(word_list)
+
