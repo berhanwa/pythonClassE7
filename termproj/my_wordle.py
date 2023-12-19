@@ -7,8 +7,9 @@
 from random import *
 from sys import argv
 
-def guesses():
-        word_list = []
+def load_words():
+    words = []
+    for line in open("words.txt")
     rounds
     with open(argv[1], 'r') as file:
 
@@ -18,3 +19,5 @@ def guesses():
     winning_word = word_list[ randint(0, len(word_list))]
 
 print("Wordle Game Instructions")
+
+
