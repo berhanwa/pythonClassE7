@@ -1,9 +1,8 @@
-# Program begins by asking users to guess the word (argv)
+# Program begins by asking users to guess the word
 
 # Iterate through each of the 6 rounds of guesses and check each char, if it's in the word, in the right place or not in there
 
 # Return the feedback per round until the final 6th round to let users know if they won or lost
-
 
 def load_words():
     words = []
@@ -45,7 +44,7 @@ def play(word):
                 letters += guess[i].upper() + " "
 
         print(result)
-        print(letters)
+        # print(letters)
 
 def main():
     import random
