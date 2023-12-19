@@ -15,6 +15,9 @@ def load_words():
 
 def play(word):
     guess = input("Enter a 5 letter word: ").lower()
+    if len(guess) != 5:
+        print("Please enter a 5 letter word.")
+        return False
 
     #Scenario Number One - User guesses the correct word and wins
     if guess == word:
