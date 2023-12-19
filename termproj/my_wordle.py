@@ -15,5 +15,6 @@ def guesses():
         for word in file:
             word_list.append( word[0:len(word)-1] )
     # print(word_list)
+    winning_word = word_list[ randint(0, len(word_list))]
 
 print("Wordle Game Instructions")
